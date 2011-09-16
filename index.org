@@ -1,0 +1,155 @@
+#+TITLE: SCRIPT 2011-2012 -- Création de sites Web
+#+AUTHOR: Version 0.1 -- Bastien Guerry
+#+DATE: 14 septembre 2011
+#+LANGUAGE: fr
+#+LATEX_HEADER: \usepackage[french]{babel}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}
+
+* Cours 1: Présentation du cours, histoire du web et enjeux sociétaux
+
+- 1h: Présentation des contenus et objectifs du cours
+  - présentation mode d'évaluation
+
+- 1h: Histoire du web
+  - Survol de l'histoire de l'information
+  - Émergence de l'internet (Arpanet, etc)
+  - Émergence du Web 2.0
+  - web ? internet ? net ? ftp ?
+
+- 1h: Enjeux sociétaux
+  - La connaissance numérique
+  - Le droit d'auteur à l'heure du web
+
+* Cours 2: Structure du web et exploration empirique du web
+
+- 1h30: Structure du web
+  - client / serveur
+  - site statique / site dynamique
+  - Les « adresses » : IP, URL et URIs
+  - Les noms : nom de machine, nom de domaine, DNS
+  - Les protocoles (http, ftp, ...)
+
+- 1h30: Typologie empirique des sites web parcourus dans la classe
+  - site statique ou dynamique ?
+  - quels droits sur les contenus ?
+  - site collaboratif ? participatif ?
+  - quel langage dynamique utilisé ?
+  - utilisation d'une base de donnée ?
+  - quelle structure de l'ensemble du site ?
+
+* Cours 3: Formats, outils et méthode pour choisir un outil
+
+- 1h: Introduction: les *formats* de fichier: .txt, .doc, .odt, .pdf,
+  .html, .php, .xml, .rss, etc.  Exploration et typologie.
+
+- 1h: Panorama sur les différents outils de création de site web.
+  Typologie (blog, cms, wiki, en ligne, hors ligne, etc)
+
+- 1h: Questions à se poser pour choisir un outil.  Mise en situation
+  (travail en groupe): définir un projet web rapide et choisir un outil.
+
+* Cours 4: Éléments de mise en forme I
+
+- 1h: Notions de mise en forme
+  - Description d'une page d'un livre
+  - Description d'une page OpenOffice
+  - Visualisation des différents éléments participants à la structure de la
+    page (saut de paragraphe, de page, numéro de page, etc)
+  - Introduction de la notion de (feuille de) « style »
+  - WYSIWYG vs. « What You See Is What You Mean »
+
+- 1h: Élements de HTML et de CSS
+
+  - Un paragraphe en HTML =<p>...</p>=
+
+  - Ajout d'un élément de style à la balise =<p>=:
+
+    #+begin_src html
+    <p style="font-size: 12pt;">...</p>
+    #+end_src
+
+  - Introduction des balises =<em>=, =<b>=, =<u>=.
+
+    #+begin_src html
+      <p>Un paragraphe avec des mots en <b>gras</b>, en <em>italique</em>
+      et <u>soulignés</u>.</p>.
+      
+    #+end_src
+
+  - Introduction de la notion d'hyperlien: balises =<a href...></a>= et
+    =<img />=.
+
+    #+begin_src html
+      <p>Un paragraphe avec un lien vers <a href="http://perdu.com">une
+          autre page web</a> et un lien pour inclure une image :</p> <img
+      src="http://test.jpg">
+    #+end_src
+
+
+  - Émulation de ces mises en forme en CSS.
+
+- 1h: Atelier de mise en forme: à partir de pages qui leur sont montrées,
+  les élèves essaient de trouver les éléments HTML qu'ils connaissent et
+  qui sont utilisées.  Ils écrivent un texte utilisant ces mêmes éléments
+  pour se rapprocher le plus possible de la page qu'ils ont sous les yeux.
+
+* Cours 5: Éléments de mise en forme II
+
+- 1h: exploration du code source d'une page HTML pour repérer des balises
+  inconnues.  Test sur ces balises.  Construction d'un tableau pour les
+  décrire et les utiliser.
+
+- 1h: Introduction des listes et des tableaux en HTML.
+
+- 1h: Faire la mise en page (d'une image, par exemple) avec CSS:
+  introduction des notions de =block=, =inline=, =float=.  Exercices autour
+  de la mise en page d'images avec une feuille de style CSS.
+
+* Cours 6: Exploration d'un outil en particulier : Wordpress
+
+*Première heure*:
+
+  - Historique rapide et définition générale des « blogs »
+
+  - Découverte et description de blogs sous Wordpress sur le web
+
+  - Présentation des éléments d'un blog exemple
+    - titre / auteur / métadonnées (date, permalien, etc)
+    - logo du blog
+    - article(s)
+    - colonne(s)
+    - « widgets »
+    - distinction pages / articles
+
+  - Test sur le blog exemple 
+
+*Deuxième heure*:
+
+  - Présentation de l'interface d'administration
+    - éléments éditoriaux
+    - éléments dédiés aux webmaster
+
+  - Éléments de mise en page
+    - la structure du site
+    - le choix du thème (et les images/feuilles CSS associées)
+    - les widgets associés au thème
+
+  - Test sur le blog exemple 
+
+*Troisième heure*: création d'un site sous Wordpress.
+
+* Cours 7: Cours de construction d'un cahier des charges
+
+- Présentation du cycle de création et mise en production d'un site web.
+- Structure d'un cahier des charges
+- Faire la liste des besoins
+- ...
+
+* Cours 8: Définition/conception d'un projet de site
+* Cours 9: Réalisation site web I (réalisation -- cahier des charges) [EVAL]
+* Cours 10: Réalisation site web II (réalisation -- conception)
+* Cours 11: Réalisation site web III (code) [EVAL]
+* Cours 12: Travail en commun sur un projet individuel [EVAL]
