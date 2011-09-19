@@ -1,1 +1,7 @@
 #+TITLE: Cours n°11: Réalisation d'un site web III (code)
+#+AUTHOR: Bastien Guerry
+#+LANGUAGE: fr
+#+OPTIONS:  skip:nil toc:t
+#+STARTUP:  even hidestars unfold
+#+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
+

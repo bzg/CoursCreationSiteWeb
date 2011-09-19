@@ -1,4 +1,8 @@
 #+TITLE: Cours n°4: Éléments de mise en forme II
+#+STARTUP:  even hidestars unfold
+#+LANGUAGE: fr
+#+OPTIONS:  skip:nil toc:t
+#+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
 
 - 1h: exploration du code source d'une page HTML pour repérer des balises
   inconnues.  Test sur ces balises.  Construction d'un tableau pour les

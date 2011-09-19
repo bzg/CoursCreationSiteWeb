@@ -1,4 +1,8 @@
 #+TITLE: Cours n°7: Construire le cahier des charges d'un site web
+#+STARTUP:  even hidestars unfold
+#+LANGUAGE: fr
+#+OPTIONS:  skip:nil toc:t
+#+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
 
 - Présentation du cycle de création et mise en production d'un site web.
 - Structure d'un cahier des charges

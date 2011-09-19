@@ -1,4 +1,9 @@
 #+TITLE: Cours n°1: Présentation du cours, histoire du Web et enjeux sociaux
+#+AUTHOR: Bastien Guerry
+#+LANGUAGE: fr
+#+OPTIONS:  skip:nil toc:t
+#+STARTUP:  even hidestars unfold
+#+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
 
 - 1h: Présentation des contenus et objectifs du cours
   - présentation mode d'évaluation

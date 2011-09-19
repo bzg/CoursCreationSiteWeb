@@ -1,4 +1,10 @@
 #+TITLE: Cours n°3: Les Formats sur le web -- Outils et méthode pour choisir un outil de création de sites Web
+#+AUTHOR: Bastien Guerry
+#+LANGUAGE: fr
+#+OPTIONS:  skip:nil toc:t
+#+STARTUP:  even hidestars unfold
+#+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
+
 
 - 1h: Introduction: les *formats* de fichier: .txt, .doc, .odt, .pdf,
   .html, .php, .xml, .rss, etc.  Exploration et typologie.
