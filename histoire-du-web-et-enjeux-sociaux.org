@@ -1,0 +1,15 @@
+#+TITLE: Cours n°1: Présentation du cours, histoire du Web et enjeux sociaux
+
+- 1h: Présentation des contenus et objectifs du cours
+  - présentation mode d'évaluation
+
+- 1h: Histoire du web
+  - Survol de l'histoire de l'information
+  - Émergence de l'internet (Arpanet, etc)
+  - Émergence du Web 2.0
+  - web ? internet ? net ? ftp ?
+
+- 1h: Enjeux sociétaux
+  - La connaissance numérique
+  - Le droit d'auteur à l'heure du web
+

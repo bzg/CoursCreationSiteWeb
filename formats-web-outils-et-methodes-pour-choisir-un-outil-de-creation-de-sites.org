@@ -1,0 +1,13 @@
+#+TITLE: Cours n°3: Les Formats sur le web -- Outils et méthode pour choisir un outil de création de sites Web
+
+- 1h: Introduction: les *formats* de fichier: .txt, .doc, .odt, .pdf,
+  .html, .php, .xml, .rss, etc.  Exploration et typologie.
+
+- 1h: Panorama sur les différents outils de création de site web.
+  Typologie (blog, cms, wiki, en ligne, hors ligne, etc)
+
+- 1h: Questions à se poser pour choisir un outil.  Mise en situation
+  (travail en groupe): définir un projet web rapide et choisir un outil.
+
+
+

@@ -1,0 +1,12 @@
+#+TITLE: Cours n°4: Éléments de mise en forme II
+
+- 1h: exploration du code source d'une page HTML pour repérer des balises
+  inconnues.  Test sur ces balises.  Construction d'un tableau pour les
+  décrire et les utiliser.
+
+- 1h: Introduction des listes et des tableaux en HTML.
+
+- 1h: Faire la mise en page (d'une image, par exemple) avec CSS:
+  introduction des notions de =block=, =inline=, =float=.  Exercices autour
+  de la mise en page d'images avec une feuille de style CSS.
+

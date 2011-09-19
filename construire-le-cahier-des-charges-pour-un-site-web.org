@@ -1,0 +1,7 @@
+#+TITLE: Cours n°7: Construire le cahier des charges d'un site web
+
+- Présentation du cycle de création et mise en production d'un site web.
+- Structure d'un cahier des charges
+- Faire la liste des besoins
+- ...
+

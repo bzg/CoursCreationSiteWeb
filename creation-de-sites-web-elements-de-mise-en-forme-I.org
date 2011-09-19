@@ -1,0 +1,48 @@
+#+TITLE: Cours n°4: Éléments de mise en forme I
+
+- 1h: Notions de mise en forme
+  - Description d'une page d'un livre
+  - Description d'une page OpenOffice
+  - Visualisation des différents éléments participants à la structure de la
+    page (saut de paragraphe, de page, numéro de page, etc)
+  - Introduction de la notion de (feuille de) « style »
+  - WYSIWYG vs. « What You See Is What You Mean »
+
+- 1h: Élements de HTML et de CSS
+
+  - Un paragraphe en HTML =<p>...</p>=
+
+  - Ajout d'un élément de style à la balise =<p>=:
+
+    #+begin_src html
+    <p style="font-size: 12pt;">...</p>
+    #+end_src
+
+  - Introduction des balises =<em>=, =<b>=, =<u>=.
+
+    #+begin_src html
+      <p>Un paragraphe avec des mots en <b>gras</b>, en <em>italique</em>
+      et <u>soulignés</u>.</p>.
+      
+    #+end_src
+
+  - Introduction de la notion d'hyperlien: balises =<a href...></a>= et
+    =<img />=.
+
+    #+begin_src html
+      <p>Un paragraphe avec un lien vers <a href="http://perdu.com">une
+          autre page web</a> et un lien pour inclure une image :</p> <img
+      src="http://test.jpg">
+    #+end_src
+
+
+  - Émulation de ces mises en forme en CSS.
+
+- 1h: Atelier de mise en forme: à partir de pages qui leur sont montrées,
+  les élèves essaient de trouver les éléments HTML qu'ils connaissent et
+  qui sont utilisées.  Ils écrivent un texte utilisant ces mêmes éléments
+  pour se rapprocher le plus possible de la page qu'ils ont sous les yeux.
+
+
+
+

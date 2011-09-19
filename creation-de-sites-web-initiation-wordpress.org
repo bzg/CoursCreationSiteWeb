@@ -1,0 +1,34 @@
+#+TITLE: Cours n°5: Exploration et prise en main de Wordpress
+
+*Première heure*:
+
+  - Historique rapide et définition générale des « blogs »
+
+  - Découverte et description de blogs sous Wordpress sur le web
+
+  - Présentation des éléments d'un blog exemple
+    - titre / auteur / métadonnées (date, permalien, etc)
+    - logo du blog
+    - article(s)
+    - colonne(s)
+    - « widgets »
+    - distinction pages / articles
+
+  - Test sur le blog exemple 
+
+*Deuxième heure*:
+
+  - Présentation de l'interface d'administration
+    - éléments éditoriaux
+    - éléments dédiés aux webmaster
+
+  - Éléments de mise en page
+    - la structure du site
+    - le choix du thème (et les images/feuilles CSS associées)
+    - les widgets associés au thème
+
+  - Test sur le blog exemple 
+
+*Troisième heure*: création d'un site sous Wordpress.
+
+
