@@ -6,6 +6,8 @@
 #+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
 
 
+[[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
+
 - 1h: Introduction: les *formats* de fichier: .txt, .doc, .odt, .pdf,
   .html, .php, .xml, .rss, etc.  Exploration et typologie.
 
@@ -15,5 +17,6 @@
 - 1h: Questions à se poser pour choisir un outil.  Mise en situation
   (travail en groupe): définir un projet web rapide et choisir un outil.
 
+* Commentaires
 
 

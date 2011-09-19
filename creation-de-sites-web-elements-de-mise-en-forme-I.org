@@ -5,6 +5,10 @@
 #+STARTUP:  even hidestars unfold
 #+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
 
+[[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
+
+* Cours
+
 - 1h: Notions de mise en forme
   - Description d'une page d'un livre
   - Description d'une page OpenOffice
@@ -48,6 +52,4 @@
   qui sont utilisées.  Ils écrivent un texte utilisant ces mêmes éléments
   pour se rapprocher le plus possible de la page qu'ils ont sous les yeux.
 
-
-
-
+* Commentaires

@@ -4,8 +4,11 @@
 #+OPTIONS:  skip:nil toc:t
 #+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
 
+[[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
+
 - Présentation du cycle de création et mise en production d'un site web.
 - Structure d'un cahier des charges
 - Faire la liste des besoins
 - ...
 
+* Commentaires

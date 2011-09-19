@@ -4,6 +4,8 @@
 #+OPTIONS:  skip:nil toc:t
 #+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
 
+[[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
+
 - 1h: exploration du code source d'une page HTML pour repérer des balises
   inconnues.  Test sur ces balises.  Construction d'un tableau pour les
   décrire et les utiliser.
@@ -14,3 +16,4 @@
   introduction des notions de =block=, =inline=, =float=.  Exercices autour
   de la mise en page d'images avec une feuille de style CSS.
 
+* Commentaires

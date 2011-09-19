@@ -1,11 +1,13 @@
 #+TITLE: Cours n°5: Exploration et prise en main de Wordpress
 #+AUTHOR: Bastien Guerry
 #+LANGUAGE: fr
-#+OPTIONS:  skip:nil toc:t
+#+OPTIONS:  skip:nil toc:nil
 #+STARTUP:  even hidestars unfold
 #+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
 
-*Première heure*:
+[[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
+
+* Première heure
 
   - Historique rapide et définition générale des « blogs »
 
@@ -21,7 +23,7 @@
 
   - Test sur le blog exemple 
 
-*Deuxième heure*:
+* Deuxième heure
 
   - Présentation de l'interface d'administration
     - éléments éditoriaux
@@ -34,6 +36,6 @@
 
   - Test sur le blog exemple 
 
-*Troisième heure*: création d'un site sous Wordpress.
-
+* Troisième heure : création d'un site sous Wordpress
+* Commentaires
 

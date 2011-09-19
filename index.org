@@ -11,8 +11,8 @@
 * Cours 1: [[file:histoire-du-web-et-enjeux-sociaux.org][Présentation du cours, histoire du Web et enjeux sociaux]]
 * Cours 2: [[file:structure-du-web-exploration-empirique.org][Structure du web et exploration empirique]]
 * Cours 3: [[file:formats-web-outils-et-methodes-pour-choisir-un-outil-de-creation-de-sites.org][Formats, outils et méthode pour choisir un outil]]
-* Cours 4: [[file:creation-de-sites-web-elements-de-mise-en-forme-I.org][Éléments de mise en forme I]]
-* Cours 5: [[file:creation-de-sites-web-elements-de-mise-en-forme-II.org][Éléments de mise en forme II]]
+* Cours 4: [[file:creation-de-sites-web-elements-de-mise-en-forme-I.org][Éléments de mise en forme I pour le Web]]
+* Cours 5: [[file:creation-de-sites-web-elements-de-mise-en-forme-II.org][Éléments de mise en forme II pour le Web]]
 * Cours 6: [[file:creation-de-sites-web-initiation-wordpress.org][Exploration d'un outil en particulier : Wordpress]]
 * Cours 7: [[file:construire-le-cahier-des-charges-pour-un-site-web.org][Construction d'un cahier des charges de site Web]]
 * Cours 8: [[file:conception-d-un-projet-de-site-web.org][Conception d'un projet de site Web]]
@@ -20,10 +20,13 @@
 * Cours 10: [[file:realisation-site-web-II.org][Réalisation site web II (conception)]]
 * Cours 11: [[file:realisation-site-web-III.org][Réalisation site web III (code) {Évaluation}]]
 * Cours 12: [[file:travail-collectif-autour-projet-de-site-web.org][Travail collectif autour d'un projet de site Web {Évaluation}]]
-* Droits d'auteur pour ce cours
+* [[file:theindex.org][Index des notions]]
+* Droits d'auteur
 
 Ce support de cours est placé sous licence [[http://creativecommons.org/licenses/by-sa/3.0/][Creative Commons BY-SA 3.0]].
 Vous êtes libre de le diffuser et d'en diffuser des versions modifiées à
 condition d'en citer l'auteur (Bastien Guerry) et la source (cette [[http://lumiere.ens.fr/~guerry/cours-creation-site-web/][page web]]
 et/ou ce [[https://github.com/bzg/CoursCreationSiteWeb][dépôt git]].)
+
+* Commentaires
 
