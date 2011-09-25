@@ -7,6 +7,8 @@
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
+** Résumé
+
 - 1h: Présentation des contenus et objectifs du cours
   - présentation mode d'évaluation
 
@@ -19,5 +21,145 @@
 - 1h: Enjeux sociétaux
   - La connaissance numérique
   - Le droit d'auteur à l'heure du web
+
+** Introduction -- présentation du cours
+
+Présentation des 12 prochains cours :
+
+- Cours 1: [[file:histoire-du-web-et-enjeux-sociaux.org][Présentation du cours, histoire du Web et enjeux sociaux]]
+- Cours 2: [[file:structure-du-web-exploration-empirique.org][Structure du web et exploration empirique]]
+- Cours 3: [[file:formats-web-outils-et-methodes-pour-choisir-un-outil-de-creation-de-sites.org][Formats, outils et méthode pour choisir un outil]]
+- Cours 4: [[file:creation-de-sites-web-elements-de-mise-en-forme-I.org][Éléments de mise en forme I pour le Web]]
+- Cours 5: [[file:creation-de-sites-web-elements-de-mise-en-forme-II.org][Éléments de mise en forme II pour le Web]]
+- Cours 6: [[file:creation-de-sites-web-initiation-wordpress.org][Exploration d'un outil en particulier : Wordpress]]
+- Cours 7: [[file:construire-le-cahier-des-charges-pour-un-site-web.org][Construction d'un cahier des charges de site Web]]
+- Cours 8: [[file:conception-d-un-projet-de-site-web.org][Conception d'un projet de site Web]]
+- Cours 9: [[file:realisation-site-web-I.org][Réalisation site web I (cahier des charges) {Évaluation}]]
+- Cours 10: [[file:realisation-site-web-II.org][Réalisation site web II (conception)]]
+- Cours 11: [[file:realisation-site-web-III.org][Réalisation site web III (code) {Évaluation}]]
+- Cours 12: [[file:travail-collectif-autour-projet-de-site-web.org][Travail collectif autour d'un projet de site Web {Évaluation}]]
+
+** Mode d'évaluation sur l'année
+
+1. Sur la création d'un cahier des charges de site web (20%)
+2. Sur la conception (architecture) d'un site web (10%)
+3. Sur la conception (code) d'un site web (10%)
+4. Sur le travail collectif autour d'un site web (20%)
+5. Sur le projet réalisé (40%)
+
+** Des outils pour le cours
+
+- Un fichier/cahier de vocabulaire
+- [[http://fr.wikipedia.org/wiki/%25C3%2589diteur_de_texte][Un éditeur de texte]]
+- [[http://www.wordpress-fr.net/][Wordpress]]
+- [[http://kompozer.net/][Kompozer]]
+- Un client FTP ([[http://www.filezilla.fr/][filezilla]] ou [[http://cyberduck.ch/][cyberduck]])
+
+** Exploration empirique du web ? (1h)
+
+1. Relever chacun 10 sites web et les regrouper selon des critères
+2. Ensemble : faire la liste de tous les critères et les affiner
+3. Relever à nouveau 10 sites et trouver d'autres critères
+4. Garder un tableau de tous les critères et les classer
+
+L'idée est d'aborder les sites que chacun connaît et de se poser les
+questions suivantes :
+
+- De quand date la page web ?
+- Qui en est l'auteur ?
+- Est-ce que la page est interactive ?
+- Quels sont les niveaux d'interactivités ?
+- Est-ce qu'il y a une base de données derrière le site ?
+- Est-ce que le site est communautaire ?
+- Est-ce que le site présente un moteur de recherche ?
+- Est-ce que le site présente un formulaire ?
+- Est-ce le site contient des animations (flash) ?
+- Quelle est la structure principale de la page ?
+- Est-ce qu'on retrouve cette structure sur tout le site ?
+- Quels sont les droits d'auteurs associés au site ?
+
+** Enjeux sociétaux (30 minutes)
+
+*** Les 10 sites les plus visités dans le monde ([[http://www.huffingtonpost.com/2010/05/28/most-visited-sites-2010-g_n_593139.html#s94481&title%3D1_Facebookcom][source]])
+
+| Rank | Site          | Category                      | Unique Visitors | Reach | Page Views        | Ad  |
+|------+---------------+-------------------------------+-----------------+-------+-------------------+-----|
+|    1 | facebook.com  | Social Networks               | 880,000,000     | 51.3% | 1,000,000,000,000 | Yes |
+|    2 | youtube.com   | Online Video                  | 800,000,000     | 46.8% | 100,000,000,000   | Yes |
+|    3 | yahoo.com     | Web Portals                   | 590,000,000     | 34.4% | 77,000,000,000    | Yes |
+|    4 | live.com      | Search Engines                | 490,000,000     | 28.7% | 84,000,000,000    | Yes |
+|    5 | msn.com       | Web Portals                   | 440,000,000     | 25.8% | 20,000,000,000    | Yes |
+|    6 | wikipedia.org | Dictionaries & Encyclopedias  | 410,000,000     | 23.7% | 6,000,000,000     | No  |
+|    7 | blogspot.com  | Blogging Resources & Services | 340,000,000     | 19.6% | 4,900,000,000     | Yes |
+|    8 | baidu.com     | Search Engines                | 300,000,000     | 17.5% | 110,000,000,000   | Yes |
+|    9 | microsoft.com | Software                      | 250,000,000     | 14.5% | 2,500,000,000     | Yes |
+|   10 | qq.com        | Web Portals                   | 250,000,000     | 14.7% | 39,000,000,000    | Yes |
+
+*** Les 10 sites les plus visités en France ([[http://fr.thenextweb.com//2011/03/01/top-30-des-sites-les-plus-visites-en-france-janvier-2011/][source]])
+
+1. Google.com
+2. MSN/Windows Live
+3. Facebook
+4. Microsoft
+5. Orange
+6. Youtube
+7. Wikipedia
+8. Free
+9. Pages Jaunes
+10. Yahoo
+
+*** Nombres de personnes « en ligne » ([[http://www.itu.int/ITU-D/ict/statistics/at_glance/KeyTelecom.html][source]])
+
+| Internet (millions) |  2005 |  2006 |  2007 |  2008 |  2009 |  2010 |
+|---------------------+-------+-------+-------+-------+-------+-------|
+| Developed           |   620 |   654 |   720 |   762 |   821 |   885 |
+| Developing          |   416 |   505 |   673 |   850 | 1'037 | 1'199 |
+| World               | 1'036 | 1'159 | 1'393 | 1'611 | 1'858 | 2'084 |
+
+| Per 100 inhabitants | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 |
+|---------------------+------+------+------+------+------+------|
+| Developed           | 51.0 | 53.6 | 58.8 | 62.0 | 66.6 | 71.6 |
+| Developing          |  7.8 |  9.4 | 12.3 | 15.3 | 18.5 | 21.1 |
+| World               | 15.9 | 17.5 | 20.8 | 23.8 | 27.1 | 30.1 |
+
+*** Cartes du pourcentage de personnes en ligne par habitants ([[http://www.bbc.co.uk/news/technology-11864350][source]])
+
+[[file:images/][file:~/install/git/CoursCreationSiteWeb/images/]]
+
+*** Le Web n'est pas l'Internet
+
+- Introduction à la question de la neutralité de l'Internet
+- Distinction entre Internet / et « Web »
+
+*** Le web profond représente 99% du web
+*** La place particulière des moteurs de recherche
+*** Web 1.0, 2.0, 3.0
+*** Une révolution comparable à celle de l'imprimerie ?
+*** Des enjeux économiques
+*** Des enjeux sur le droit d'auteur
+*** Bibliographie
+
+- La raison graphique, Jack Goody, éditions de Minuit, 1979 ([[http://www.leseditionsdeminuit.fr/f/index.php?sp%3Dliv&livre_id%3D2096][lien]])
+- Le sacre de l'amateur, Patrice Flichy, Seuil, 2010 ([[http://www.seuil.com/livre-9782021031447.htm][lien]])
+- La démocratie Internet, Dominique Cardon, Seuil, 2010 ([[http://www.seuil.com/livre-9782021026917.htm][lien]]) Voir aussi
+  l'interview "Pourquoi l'internet n'a-t-il pas changé la politique ?" sur
+  le blog d'InternetActu dans lemonde.fr ([[http://internetactu.blog.lemonde.fr/2011/08/19/dominique-cardon-pourquoi-linternet-na-t-il-pas-change-la-politique/][lien]])
+
+** Histoire du web (30 minutes)
+
+*** L'histoire du web n'est pas celle de l'internet
+
+- histoire de l'internet
+- histoire du web
+- avenir du web
+
+*** Google Trends -- web et mémoire ?
+
+Exemple: http://www.google.fr/trends?q=earthquake&date=all&geo=us&ctab=0&sort=0&sa=N
+
+Le web a-t-il sa propre histoire ?
+
+Comme cette histoire s'inscrit-elle dans l'Histoire avec un grand H ?
+
 
 * Commentaires
