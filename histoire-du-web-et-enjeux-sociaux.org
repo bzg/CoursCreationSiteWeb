@@ -19,18 +19,18 @@
 
 Présentation des 12 prochains cours :
 
-- Cours 1: [[file:histoire-du-web-et-enjeux-sociaux.org][Présentation du cours, histoire du Web et enjeux sociaux]]
-- Cours 2: [[file:structure-du-web-exploration-empirique.org][Structure du web et exploration empirique]]
-- Cours 3: [[file:formats-web-outils-et-methodes-pour-choisir-un-outil-de-creation-de-sites.org][Formats, outils et méthode pour choisir un outil]]
-- Cours 4: [[file:creation-de-sites-web-elements-de-mise-en-forme-I.org][Éléments de mise en forme I pour le Web]]
-- Cours 5: [[file:creation-de-sites-web-elements-de-mise-en-forme-II.org][Éléments de mise en forme II pour le Web]]
-- Cours 6: [[file:creation-de-sites-web-initiation-wordpress.org][Exploration d'un outil en particulier : Wordpress]]
-- Cours 7: [[file:construire-le-cahier-des-charges-pour-un-site-web.org][Construction d'un cahier des charges de site Web]]
-- Cours 8: [[file:conception-d-un-projet-de-site-web.org][Conception d'un projet de site Web]]
-- Cours 9: [[file:realisation-site-web-I.org][Réalisation site web I (cahier des charges) {Évaluation}]]
-- Cours 10: [[file:realisation-site-web-II.org][Réalisation site web II (conception)]]
-- Cours 11: [[file:realisation-site-web-III.org][Réalisation site web III (code) {Évaluation}]]
-- Cours 12: [[file:travail-collectif-autour-projet-de-site-web.org][Travail collectif autour d'un projet de site Web {Évaluation}]]
+- Cours 1: Présentation du cours, histoire du Web et enjeux sociaux
+- Cours 2: Structure du web et exploration empirique
+- Cours 3: Formats, outils et méthode pour choisir un outil
+- Cours 4: Éléments de mise en forme I pour le Web
+- Cours 5: Éléments de mise en forme II pour le Web
+- Cours 6: Exploration d'un outil en particulier : Wordpress
+- Cours 7: Construction d'un cahier des charges de site Web
+- Cours 8: Conception d'un projet de site Web
+- Cours 9: Réalisation site web I (cahier des charges) [Évaluation]
+- Cours 10: Réalisation site web II (conception)
+- Cours 11: Réalisation site web III (code) [Évaluation]
+- Cours 12: Travail collectif autour d'un projet de site Web [Évaluation]
 
 * Mode d'évaluation sur l'année
 
