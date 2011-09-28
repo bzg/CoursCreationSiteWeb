@@ -81,7 +81,9 @@ questions suivantes :
 - Présentation de la différence entre l'Internet et le Web
 - Présentation du fonctionnement d'internet comme réseau décentralisé
 - Explication du principe des adresses
-- Définition de URL, protocol, adresse IP
+- Définition de URL, protocol, adresse IP.
+- Signification des extensions des noms de domaine (=.com=, =.org=, =.fr=,
+  etc.)
 
 * Enjeux sociétaux (30 minutes)
 
@@ -185,8 +187,10 @@ Quelques questions :
 * Vocabulaire
 
 - ARPanet
-- GNU General Public Licence
 - Adresse IP
+- Extension (de format, de nom de domaine)
+- Format
+- GNU General Public Licence
 - Internet
 - Licence libre
 - Moteur de recherche
