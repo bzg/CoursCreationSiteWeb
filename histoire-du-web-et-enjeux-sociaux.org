@@ -7,22 +7,15 @@
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
-** Résumé
+* Résumé
 
-- 1h: Présentation des contenus et objectifs du cours
-  - présentation mode d'évaluation
+- Présentation rapide des 12 cours et des objectifs du cours
+- Présentation du mode d'évaluation
+- Exploration empirique de sites web 
+- Présentation de quelques concepts clefs
+- Enjeux sociaux et histoire du web
 
-- 1h: Histoire du web
-  - Survol de l'histoire de l'information
-  - Émergence de l'internet (Arpanet, etc)
-  - Émergence du Web 2.0
-  - web ? internet ? net ? ftp ?
-
-- 1h: Enjeux sociétaux
-  - La connaissance numérique
-  - Le droit d'auteur à l'heure du web
-
-** Introduction -- présentation du cours
+* Introduction -- présentation du cours
 
 Présentation des 12 prochains cours :
 
@@ -39,7 +32,7 @@ Présentation des 12 prochains cours :
 - Cours 11: [[file:realisation-site-web-III.org][Réalisation site web III (code) {Évaluation}]]
 - Cours 12: [[file:travail-collectif-autour-projet-de-site-web.org][Travail collectif autour d'un projet de site Web {Évaluation}]]
 
-** Mode d'évaluation sur l'année
+* Mode d'évaluation sur l'année
 
 1. Sur la création d'un cahier des charges de site web (20%)
 2. Sur la conception (architecture) d'un site web (10%)
@@ -47,20 +40,20 @@ Présentation des 12 prochains cours :
 4. Sur le travail collectif autour d'un site web (20%)
 5. Sur le projet réalisé (40%)
 
-** Des outils pour le cours
+* Liste des outils pour le cours
 
 - Un fichier/cahier de vocabulaire
 - [[http://fr.wikipedia.org/wiki/%25C3%2589diteur_de_texte][Un éditeur de texte]]
-- [[http://www.wordpress-fr.net/][Wordpress]]
-- [[http://kompozer.net/][Kompozer]]
+- Un moteur de wiki: [[http://www.dokuwiki.org/dokuwiki][Dokuwiki]]
+- Un moteur de blog: [[http://www.wordpress-fr.net/][Wordpress]]
+- Un éditeur de sites web: [[http://kompozer.net/][Kompozer]]
 - Un client FTP ([[http://www.filezilla.fr/][filezilla]] ou [[http://cyberduck.ch/][cyberduck]])
 
-** Exploration empirique du web ? (1h)
+* Exploration empirique
 
 1. Relever chacun 10 sites web et les regrouper selon des critères
 2. Ensemble : faire la liste de tous les critères et les affiner
-3. Relever à nouveau 10 sites et trouver d'autres critères
-4. Garder un tableau de tous les critères et les classer
+4. Tableau de critères et discussion des fonctionnalités principales
 
 L'idée est d'aborder les sites que chacun connaît et de se poser les
 questions suivantes :
@@ -77,10 +70,35 @@ questions suivantes :
 - Quelle est la structure principale de la page ?
 - Est-ce qu'on retrouve cette structure sur tout le site ?
 - Quels sont les droits d'auteurs associés au site ?
+- Etc.
 
-** Enjeux sociétaux (30 minutes)
+* Pourquoi faire un site web ?
 
-*** Les 10 sites les plus visités dans le monde ([[http://www.huffingtonpost.com/2010/05/28/most-visited-sites-2010-g_n_593139.html#s94481&title%3D1_Facebookcom][source]])
+- Liste des raisons qui peuvent motiver la création d'un site web.
+
+* Concepts fondamentaux
+
+- Présentation de la différence entre l'Internet et le Web
+- Présentation du fonctionnement d'internet comme réseau décentralisé
+- Explication du principe des adresses
+- Définition de URL, protocol, adresse IP
+
+* Enjeux sociétaux (30 minutes)
+
+- Nous ne voyons que très peu de chose du Web
+- Le problème du filtrage
+  - présentation rapide des différents dispositifs de filtrage
+  - présentation du fonctionnement d'un réseau pair à pair
+- Problématique du droit d'auteur
+
+* Histoire du web
+
+- L'histoire du web n'est pas celle de l'Internet, plus ancienne
+- Différences Web 1.0, Web 2.0, Web 3.0
+
+* Pour aller plus loin
+
+** Les 10 sites les plus visités dans le monde ([[http://www.huffingtonpost.com/2010/05/28/most-visited-sites-2010-g_n_593139.html#s94481&title%3D1_Facebookcom][source]])
 
 | Rank | Site          | Category                      | Unique Visitors | Reach | Page Views        | Ad  |
 |------+---------------+-------------------------------+-----------------+-------+-------------------+-----|
@@ -95,7 +113,7 @@ questions suivantes :
 |    9 | microsoft.com | Software                      | 250,000,000     | 14.5% | 2,500,000,000     | Yes |
 |   10 | qq.com        | Web Portals                   | 250,000,000     | 14.7% | 39,000,000,000    | Yes |
 
-*** Les 10 sites les plus visités en France ([[http://fr.thenextweb.com//2011/03/01/top-30-des-sites-les-plus-visites-en-france-janvier-2011/][source]])
+** Les 10 sites les plus visités en France ([[http://fr.thenextweb.com//2011/03/01/top-30-des-sites-les-plus-visites-en-france-janvier-2011/][source]])
 
 1. Google.com
 2. MSN/Windows Live
@@ -108,7 +126,7 @@ questions suivantes :
 9. Pages Jaunes
 10. Yahoo
 
-*** Nombres de personnes « en ligne » ([[http://www.itu.int/ITU-D/ict/statistics/at_glance/KeyTelecom.html][source]])
+** Le nombre de personnes « en ligne » ([[http://www.itu.int/ITU-D/ict/statistics/at_glance/KeyTelecom.html][source]])
 
 | Internet (millions) |  2005 |  2006 |  2007 |  2008 |  2009 |  2010 |
 |---------------------+-------+-------+-------+-------+-------+-------|
@@ -122,44 +140,64 @@ questions suivantes :
 | Developing          |  7.8 |  9.4 | 12.3 | 15.3 | 18.5 | 21.1 |
 | World               | 15.9 | 17.5 | 20.8 | 23.8 | 27.1 | 30.1 |
 
-*** Cartes du pourcentage de personnes en ligne par habitants ([[http://www.bbc.co.uk/news/technology-11864350][source]])
+** Cartes du pourcentage de personnes en ligne par habitants ([[http://www.bbc.co.uk/news/technology-11864350][source]])
 
-[[file:images/][file:~/install/git/CoursCreationSiteWeb/images/]]
+Voir [[http://www.bbc.co.uk/news/technology-11864350][la source]] pour une carte interactive.
 
-*** Le Web n'est pas l'Internet
+En 2000:
 
-- Introduction à la question de la neutralité de l'Internet
-- Distinction entre Internet / et « Web »
+#+ATTR_HTML: width=700px
+[[file:images/1998.jpg][file:~/install/git/CoursCreationSiteWeb/images/2000.jpg]]
 
-*** Le web profond représente 99% du web
-*** La place particulière des moteurs de recherche
-*** Web 1.0, 2.0, 3.0
-*** Une révolution comparable à celle de l'imprimerie ?
-*** Des enjeux économiques
-*** Des enjeux sur le droit d'auteur
-*** Bibliographie
+EN 2009:
 
-- La raison graphique, Jack Goody, éditions de Minuit, 1979 ([[http://www.leseditionsdeminuit.fr/f/index.php?sp%3Dliv&livre_id%3D2096][lien]])
-- Le sacre de l'amateur, Patrice Flichy, Seuil, 2010 ([[http://www.seuil.com/livre-9782021031447.htm][lien]])
-- La démocratie Internet, Dominique Cardon, Seuil, 2010 ([[http://www.seuil.com/livre-9782021026917.htm][lien]]) Voir aussi
-  l'interview "Pourquoi l'internet n'a-t-il pas changé la politique ?" sur
-  le blog d'InternetActu dans lemonde.fr ([[http://internetactu.blog.lemonde.fr/2011/08/19/dominique-cardon-pourquoi-linternet-na-t-il-pas-change-la-politique/][lien]])
+#+ATTR_HTML: width=700px
+[[file:images/1998.jpg][file:~/install/git/CoursCreationSiteWeb/images/2009.jpg]]
 
-** Histoire du web (30 minutes)
-
-*** L'histoire du web n'est pas celle de l'internet
-
-- histoire de l'internet
-- histoire du web
-- avenir du web
-
-*** Google Trends -- web et mémoire ?
+** Google Trends -- Web et mémoire
 
 Exemple: http://www.google.fr/trends?q=earthquake&date=all&geo=us&ctab=0&sort=0&sa=N
 
-Le web a-t-il sa propre histoire ?
+Quelques questions :
 
-Comme cette histoire s'inscrit-elle dans l'Histoire avec un grand H ?
+- Comment le web peut-il nous aider à étudier l'histoire du monde réel
+  autrement ?
 
+- Le web a-t-il sa propre histoire ?
+
+- Comme cette histoire s'inscrit-elle dans l'Histoire avec un grand H ?
+
+** Webographie
+
+- [[http://www.youtube.com/watch?v%3DeW8qjTd5hpQ][What Gog. and Facb. are Hiding]], TED Talk by Eli Pariser, May 2011
+
+- [[http://www.guardian.co.uk/technology/2011/sep/27/facebook-open-graph-web-underclass][Why Facebook's new Open Graph makes us all part of the web underclass]]
+  article de Adrian Short, /The Guardian/, Septembre 2011
+
+** Bibliographie
+
+- /Le sacre de l'amateur/, Patrice Flichy, Seuil, 2010 ([[http://www.seuil.com/livre-9782021031447.htm][lien]])
+
+- /La démocratie Internet/, Dominique Cardon, Seuil, 2010 ([[http://www.seuil.com/livre-9782021026917.htm][lien]]) Voir aussi
+  l'interview "Pourquoi l'internet n'a-t-il pas changé la politique ?" sur
+  le blog d'InternetActu dans lemonde.fr ([[http://internetactu.blog.lemonde.fr/2011/08/19/dominique-cardon-pourquoi-linternet-na-t-il-pas-change-la-politique/][lien]])
+
+* Vocabulaire
+
+- ARPanet
+- GNU General Public Licence
+- Adresse IP
+- Internet
+- Licence libre
+- Moteur de recherche
+- Nom de domaine
+- Projet Gutenberg
+- Protocol
+- Sous-domaine
+- URL 
+- WHOIS
+- Web
+- p2p ("réseau pair à pair")
+- robots.txt
 
 * Commentaires
