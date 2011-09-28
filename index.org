@@ -9,7 +9,7 @@
 #+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}
 
 * Cours 1: [[file:histoire-du-web-et-enjeux-sociaux.org][Présentation du cours, histoire du Web et enjeux sociaux]]
-* Cours 2: [[file:structure-du-web-exploration-empirique.org][Structure du web et exploration empirique]]
+* Cours 2: [[file:initiation-ftp-html-outils.org][Initiation FTP, HTML et exploration des outils]]
 * Cours 3: [[file:formats-web-outils-et-methodes-pour-choisir-un-outil-de-creation-de-sites.org][Formats, outils et méthode pour choisir un outil]]
 * Cours 4: [[file:creation-de-sites-web-elements-de-mise-en-forme-I.org][Éléments de mise en forme I pour le Web]]
 * Cours 5: [[file:creation-de-sites-web-elements-de-mise-en-forme-II.org][Éléments de mise en forme II pour le Web]]

@@ -1,0 +1,67 @@
+#+TITLE: Cours n°2: Initiation FTP, HTML et exploration des outils
+#+AUTHOR: Bastien Guerry
+#+LANGUAGE: fr
+#+OPTIONS:  skip:nil toc:t
+#+STARTUP:  even hidestars unfold
+
+[[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
+
+* Initiation FTP
+
+- Présentation du concept de serveur
+- Présentation de la relation client-serveur
+- Rapide survol apache/mysql/php (et alternatives)
+
+Activités TD: 
+
+- Test sur FTP dédié (perso Bastien)
+- création d'un répertoire par élève
+- création d'un fichier index.html par élève
+- création d'un répertoire collectif
+
+** COMMENT Informations de connexion
+
+:    Hostname: ps18759.dreamhostps.com
+:    Username: denisdiderot
+:    Password: paris7 (changeable through the web panel)
+
+* Initiation HTML
+
+Pourquoi regarder le code HTML d'un site ?  Voir par exemple : [[http://www.ebouquin.fr/2011/09/26/amazon-la-tablette-et-le-streaming-debook-caches-dans-le-code/][Amazon : la
+tablette et le streaming d’ebook cachés dans le code]]
+
+Activité TD:
+
+- copier-coller de bout de code HTML
+- liste collective des éléments rencontrés
+- explications et réponses aux questions sur ces éléments
+- inclure des éléments localement disponibles sur le serveur
+- inclure des éléments distants (accessibles via une autre URI)
+- notion de /embedded/
+
+* Exploration des outils
+
+2 groupes, chacun explorant un outil en particulier.
+
+** Wordpress
+
+** Dokuwiki
+
+* COMMENT Esquisse du cours
+
+- 1h30: Structure du web
+  - client / serveur
+  - site statique / site dynamique
+  - Les « adresses » : IP, URL et URIs
+  - Les noms : nom de machine, nom de domaine, DNS
+  - Les protocoles (http, ftp, ...)
+
+- 1h30: Typologie empirique des sites web parcourus dans la classe
+  - site statique ou dynamique ?
+  - quels droits sur les contenus ?
+  - site collaboratif ? participatif ?
+  - quel langage dynamique utilisé ?
+  - utilisation d'une base de donnée ?
+  - quelle structure de l'ensemble du site ?
+
+* Commentaires
