@@ -45,7 +45,7 @@ Activité TD:
 
 ** Wordpress
 
-** Dokuwiki
+** Dokuwiki (ou mediawiki)
 
 * COMMENT Esquisse du cours
 

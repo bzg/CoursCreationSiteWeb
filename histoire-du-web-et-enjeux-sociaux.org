@@ -44,7 +44,7 @@ Présentation des 12 prochains cours :
 
 - Un fichier/cahier de vocabulaire
 - [[http://fr.wikipedia.org/wiki/%25C3%2589diteur_de_texte][Un éditeur de texte]]
-- Un moteur de wiki: [[http://www.dokuwiki.org/dokuwiki][Dokuwiki]]
+- Un moteur de wiki: [[http://www.dokuwiki.org/dokuwiki][Dokuwiki]] (ou [[http://www.mediawiki.org/wiki/MediaWiki/fr][Mediawiki]])
 - Un moteur de blog: [[http://www.wordpress-fr.net/][Wordpress]]
 - Un éditeur de sites web: [[http://kompozer.net/][Kompozer]]
 - Un client FTP ([[http://www.filezilla.fr/][filezilla]] ou [[http://cyberduck.ch/][cyberduck]])
@@ -149,12 +149,12 @@ Voir [[http://www.bbc.co.uk/news/technology-11864350][la source]] pour une carte
 En 2000:
 
 #+ATTR_HTML: width=700px
-[[file:images/1998.jpg][file:~/install/git/CoursCreationSiteWeb/images/2000.jpg]]
+[[file:images/2000.jpg]]
 
 EN 2009:
 
 #+ATTR_HTML: width=700px
-[[file:images/1998.jpg][file:~/install/git/CoursCreationSiteWeb/images/2009.jpg]]
+[[file:images/2009.jpg]]
 
 ** Google Trends -- Web et mémoire
 
