@@ -2,7 +2,6 @@
 #+STARTUP:  even hidestars unfold
 #+LANGUAGE: fr
 #+OPTIONS:  skip:nil toc:t
-#+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
