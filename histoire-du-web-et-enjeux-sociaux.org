@@ -100,7 +100,7 @@ questions suivantes :
 
 * Pour aller plus loin
 
-** Les 10 sites les plus visités dans le monde ([[http://www.huffingtonpost.com/2010/05/28/most-visited-sites-2010-g_n_593139.html#s94481&title%3D1_Facebookcom][source]])
+** Les 10 sites les plus visités dans le monde en mai 2010 ([[http://www.huffingtonpost.com/2010/05/28/most-visited-sites-2010-g_n_593139.html#s94481&title%3D1_Facebookcom][source]])
 
 | Rank | Site          | Category                      | Unique Visitors | Reach | Page Views        | Ad  |
 |------+---------------+-------------------------------+-----------------+-------+-------------------+-----|
@@ -115,7 +115,7 @@ questions suivantes :
 |    9 | microsoft.com | Software                      | 250,000,000     | 14.5% | 2,500,000,000     | Yes |
 |   10 | qq.com        | Web Portals                   | 250,000,000     | 14.7% | 39,000,000,000    | Yes |
 
-** Les 10 sites les plus visités en France ([[http://fr.thenextweb.com//2011/03/01/top-30-des-sites-les-plus-visites-en-france-janvier-2011/][source]])
+** Les 10 sites les plus visités en France en janvier 2011 ([[http://fr.thenextweb.com//2011/03/01/top-30-des-sites-les-plus-visites-en-france-janvier-2011/][source]])
 
 1. Google.com
 2. MSN/Windows Live
