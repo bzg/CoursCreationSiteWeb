@@ -23,7 +23,7 @@ Activités TD:
 
 :    Hostname: ps18759.dreamhostps.com
 :    Username: denisdiderot
-:    Password: paris7 (changeable through the web panel)
+:    Password: xxxxx (changeable through the web panel)
 
 * Initiation HTML
 

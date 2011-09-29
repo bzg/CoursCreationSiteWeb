@@ -3,7 +3,6 @@
 #+LANGUAGE: fr
 #+OPTIONS:  skip:nil toc:t
 #+STARTUP:  even hidestars unfold
-#+INFOJS_OPT: view:overview toc:nil ltoc:nil mouse:#cccccc buttons:0 path:http://orgmode.org/org-info.js
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
@@ -34,6 +33,11 @@ Présentation des 12 prochains cours :
 
 * Mode d'évaluation sur l'année
 
+#+INDEX: Cahier des charges
+#+INDEX: Architecture (site web)
+#+INDEX: Code
+#+INDEX: Collaboration
+
 1. Sur la création d'un cahier des charges de site web (20%)
 2. Sur la conception (architecture) d'un site web (10%)
 3. Sur la conception (code) d'un site web (10%)
@@ -41,6 +45,15 @@ Présentation des 12 prochains cours :
 5. Sur le projet réalisé (40%)
 
 * Liste des outils pour le cours
+
+#+INDEX: Éditeur de texte
+#+INDEX: Traitement de texte
+#+INDEX: Dokuwiki
+#+INDEX: Mediawiki
+#+INDEX: Wordpress
+#+INDEX: Kompozer
+#+INDEX: FileZilla
+#+INDEX: Cyberduck
 
 - Un fichier/cahier de vocabulaire
 - [[http://fr.wikipedia.org/wiki/%25C3%2589diteur_de_texte][Un éditeur de texte]]
@@ -54,6 +67,10 @@ Présentation des 12 prochains cours :
 1. Relever chacun 10 sites web et les regrouper selon des critères
 2. Ensemble : faire la liste de tous les critères et les affiner
 4. Tableau de critères et discussion des fonctionnalités principales
+
+#+INDEX: Interactivité
+#+INDEX: Communautaire
+#+INDEX: Droits d'auteur
 
 L'idée est d'aborder les sites que chacun connaît et de se poser les
 questions suivantes :
@@ -78,16 +95,31 @@ questions suivantes :
 
 * Concepts fondamentaux
 
+#+INDEX: Internet (et Web)
+#+INDEX: Web (et Internet)
+#+INDEX: Réseau (décentralisé)
+#+INDEX: URL
+#+INDEX: Adresse IP
+#+INDEX: Protocol
+#+INDEX: Nom de domaine
+#+INDEX: Sous-domaine
+
 - Présentation de la différence entre l'Internet et le Web
 - Présentation du fonctionnement d'internet comme réseau décentralisé
-- Explication du principe des adresses
-- Définition de URL, protocol, adresse IP.
+- Explication du principe des adresses IP
+- Définition et découpage d'une URL: protocol, sous-domaine, nom de
+  domaine, extension (et le reste)
 - Signification des extensions des noms de domaine (=.com=, =.org=, =.fr=,
   etc.)
 
 * Enjeux sociétaux (30 minutes)
 
-- Nous ne voyons que très peu de chose du Web
+#+INDEX: Web profond
+#+INDEX: Filtrage
+#+INDEX: Réseau pair à pair
+#+INDEX: Droits d'auteur
+
+- Nous ne voyons que très peu de chose du Web (« web profond »)
 - Le problème du filtrage
   - présentation rapide des différents dispositifs de filtrage
   - présentation du fonctionnement d'un réseau pair à pair
@@ -95,12 +127,27 @@ questions suivantes :
 
 * Histoire du web
 
+#+INDEX: Web 1.0
+#+INDEX: Web 2.0
+#+INDEX: Web 3.0
+
 - L'histoire du web n'est pas celle de l'Internet, plus ancienne
 - Différences Web 1.0, Web 2.0, Web 3.0
 
 * Pour aller plus loin
 
 ** Les 10 sites les plus visités dans le monde en mai 2010 ([[http://www.huffingtonpost.com/2010/05/28/most-visited-sites-2010-g_n_593139.html#s94481&title%3D1_Facebookcom][source]])
+
+#+INDEX: qq.com
+#+INDEX: youtube.com
+#+INDEX: yahoo.com
+#+INDEX: live.com
+#+INDEX: msn.com
+#+INDEX: wikipedia.org
+#+INDEX: blogspot.com
+#+INDEX: baidu.com
+#+INDEX: microsoft.com
+#+INDEX: qq.com
 
 | Rank | Site          | Category                      | Unique Visitors | Reach | Page Views        | Ad  |
 |------+---------------+-------------------------------+-----------------+-------+-------------------+-----|
@@ -116,6 +163,14 @@ questions suivantes :
 |   10 | qq.com        | Web Portals                   | 250,000,000     | 14.7% | 39,000,000,000    | Yes |
 
 ** Les 10 sites les plus visités en France en janvier 2011 ([[http://fr.thenextweb.com//2011/03/01/top-30-des-sites-les-plus-visites-en-france-janvier-2011/][source]])
+
+#+INDEX: orange.fr
+#+INDEX: facebook.com
+#+INDEX: google.com
+#+INDEX: Free
+#+INDEX: Pages jaunes
+#+INDEX: yahoo.com
+#+INDEX: youtube.com
 
 1. Google.com
 2. MSN/Windows Live
@@ -158,6 +213,8 @@ EN 2009:
 
 ** Google Trends -- Web et mémoire
 
+#+INDEX: Google Trends
+
 Exemple: http://www.google.fr/trends?q=earthquake&date=all&geo=us&ctab=0&sort=0&sa=N
 
 Quelques questions :
@@ -197,11 +254,14 @@ Quelques questions :
 - Nom de domaine
 - Projet Gutenberg
 - Protocol
+- Robots.txt
 - Sous-domaine
+- Traitement de texte
 - URL 
 - WHOIS
 - Web
+- Web profond
 - p2p ("réseau pair à pair")
-- robots.txt
+- Éditeur de texte
 
 * Commentaires
