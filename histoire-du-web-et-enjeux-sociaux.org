@@ -46,7 +46,7 @@ Présentation des 12 prochains cours :
 
 * Liste des outils pour le cours
 
-#+INDEX: Éditeur de texte
+#+INDEX: Editeur de texte
 #+INDEX: Traitement de texte
 #+INDEX: Dokuwiki
 #+INDEX: Mediawiki

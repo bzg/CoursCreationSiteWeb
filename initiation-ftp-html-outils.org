@@ -8,16 +8,52 @@
 
 * Initiation FTP
 
+#+INDEX: FTP
+#+INDEX: Internet Explorer
+#+INDEX: Firefox
+#+INDEX: Opéra
+#+INDEX: Konqueror
+#+INDEX: Google Chrome
+#+INDEX: Xulrunner
+#+INDEX: Webkit
+#+INDEX: Java
+#+INDEX: Javascript
+#+INDEX: Cookie
+#+INDEX: Php
+#+INDEX: Serveur
+#+INDEX: Client-Serveur
+#+INDEX: Base de donnée
+#+INDEX: Navigateur Web
+#+INDEX: Mysql
+#+INDEX: Apache
+#+INDEX: LAMP
+
+- Présentation de ce qu'est un /navigateur web/
+
+  - Passage en revue des fonctions des différentes navigateurs:
+    Internet Explorer, Firefox, Google Chrome, Opéra, Konqueror
+
+  - Distinction Navigateur web et moteur (webkit, xulrunner, etc.)
+
+- Qu'est-ce qu'il se passe entre le navigateur et la machine ?
+
 - Présentation du concept de serveur
+
 - Présentation de la relation client-serveur
-- Rapide survol apache/mysql/php (et alternatives)
+  
+  - Où s'exécute le code ?
+    - Sur le serveur (ex. php)
+    - Sur ma machine (ex. javascript)
+
+- Rapide survol Apache/Mysql/Php
+- Mentions des alternatives pour chaque couche : nginx, nosql, python
 
 Activités TD: 
 
+- Test de plusieurs navigateurs (Internet Explorer, Firefox, Konqueror)
 - Test sur FTP dédié (perso Bastien)
-- création d'un répertoire par élève
-- création d'un fichier index.html par élève
-- création d'un répertoire collectif
+- création d'une page web par élève
+- création d'une page collective
 
 ** COMMENT Informations de connexion
 
@@ -26,6 +62,8 @@ Activités TD:
 :    Password: xxxxx (changeable through the web panel)
 
 * Initiation HTML
+
+#+INDEX: HTML
 
 Pourquoi regarder le code HTML d'un site ?  Voir par exemple : [[http://www.ebouquin.fr/2011/09/26/amazon-la-tablette-et-le-streaming-debook-caches-dans-le-code/][Amazon : la
 tablette et le streaming d’ebook cachés dans le code]]
@@ -39,13 +77,58 @@ Activité TD:
 - inclure des éléments distants (accessibles via une autre URI)
 - notion de /embedded/
 
+** Liste indicative des balises HTML à découvrir
+
+#+INDEX: <html> 
+#+INDEX: <p>
+#+INDEX: <b> 
+#+INDEX: <em> 
+#+INDEX: <i>
+#+INDEX: <ul> 
+#+INDEX: <li>
+#+INDEX: <a ...>
+#+INDEX: <head>
+
+: <html> 
+: <p>
+: <b> 
+: <em> 
+: <i>
+: <ul> 
+: <li>
+: <a ...>
+: <img ...>
+: <head>
+: ...
+
 * Exploration des outils
 
 2 groupes, chacun explorant un outil en particulier.
 
 ** Wordpress
 
+#+INDEX: Wordpress
+
+- Présentation rapide
+
+Activités TD:
+
+- Découverte de l'interface d'administration
+
 ** Dokuwiki (ou mediawiki)
+
+#+INDEX: Mediawiki
+#+INDEX: Syntaxe wiki
+
+- Présentation rapide
+
+Activités TD:
+
+- Création d'une page
+- Création de liens
+- Mise en forme de texte
+- Insertion d'une image
+- ...
 
 * COMMENT Esquisse du cours
 
@@ -64,4 +147,11 @@ Activité TD:
   - utilisation d'une base de donnée ?
   - quelle structure de l'ensemble du site ?
 
+* COMMENT Pour aller plus loin
+* Webographie
+
+- La guerre des navigateurs web: [[http://news.slashdot.org/story/11/09/29/1945201/chrome-set-to-take-no-2-spot-from-firefox][Google Chrome en passe de doubler Firefox?]]
+- Évolution de l'usage des navigateurs web: [[http://fr.wikipedia.org/wiki/%25C3%2589volution_de_l%2527usage_des_navigateurs_Web][article Wikipédia]]
+
+* COMMENT Bibliographie
 * Commentaires
