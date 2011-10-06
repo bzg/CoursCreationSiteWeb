@@ -6,6 +6,47 @@
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
+* Notes sur ce qui a été fait réellement
+
+- rappel des informations sur le serveur et le compte FTP
+- Filezilla n'est pas disponible
+- accès au code source d'une page (cours n°1 donné en exemple)
+- copier coller dans Wordpad (enregistrement en .txt)
+- utilisation de webftp dreamhost à la place de Filezilla
+- mise en ligne d'un fichier
+- renommage du fichier .txt en .html
+- visite du fichier
+- création d'un fichier d'index.html
+  - explication sur fichier par défaut servi par le serveur
+- balises
+  html
+  body
+  head
+  title
+  meta
+  a
+  li
+  p
+- pas vu
+  table
+  ul ol dl
+  br/
+  style
+  font size / color
+- notion de lien (anchor)
+- notion de lien interne (a name="")
+- notion de paramètre
+  - meta name="description"
+  - class="tag"
+- notion de balise qui ne se ferme pas img
+- utilisation de wordpress
+  - création entrée de blog
+  - distinction visuel/HTML
+  - commentaires 
+  - interaface d'administration
+  - pas vu : éditeur / auteur 
+
+* Qu'est-ce qu'un navigateur web ?
 * Initiation FTP
 
 #+INDEX: FTP
