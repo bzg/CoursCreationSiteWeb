@@ -10,6 +10,7 @@
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
+* Résumé
 * Qu'est-ce qu'un navigateur web ?
 
 #+INDEX: Internet Explorer
@@ -83,3 +84,11 @@
 ** Bibliographie
 
 - /La raison graphique/, Jack Goody, éditions de Minuit, 1979 ([[http://www.leseditionsdeminuit.fr/f/index.php?sp%3Dliv&livre_id%3D2096][lien]])
+
+* Webographie
+
+- La guerre des navigateurs web: [[http://news.slashdot.org/story/11/09/29/1945201/chrome-set-to-take-no-2-spot-from-firefox][Google Chrome en passe de doubler Firefox?]]
+
+- Évolution de l'usage des navigateurs web: [[http://fr.wikipedia.org/wiki/%25C3%2589volution_de_l%2527usage_des_navigateurs_Web][article Wikipédia]]
+
+* Vocabulaire

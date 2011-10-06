@@ -18,6 +18,30 @@
 
 * Nouveaux éléments de HTML
 
+- pas vu
+  table
+  ul ol dl
+  br/
+  style
+  font size / color
+
 * Découverte de Kompozer
 
 * Découverte de MediaWiki
+
+#+INDEX: Mediawiki
+#+INDEX: Syntaxe wiki
+
+- Présentation rapide
+
+Activités TD:
+
+- Création d'une page
+- Création de liens
+- Mise en forme de texte
+- Insertion d'une image
+- ...
+
+
+
+

@@ -7,55 +7,50 @@
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
-* Notes sur ce qui a été fait réellement
+* Résumé
 
-- rappel des informations sur le serveur et le compte FTP
-- Filezilla n'est pas disponible
-- accès au code source d'une page (cours n°1 donné en exemple)
-- copier coller dans Wordpad (enregistrement en .txt)
-- utilisation de webftp dreamhost à la place de Filezilla
-- mise en ligne d'un fichier
-- renommage du fichier .txt en .html
-- visite du fichier
-- création d'un fichier d'index.html
-  - explication sur fichier par défaut servi par le serveur
-- balises
-  html
-  body
-  head
-  title
-  meta
-  a
-  li
-  p
-- pas vu
-  table
-  ul ol dl
-  br/
-  style
-  font size / color
-- notion de lien (anchor)
-- notion de lien interne (a name="")
-- notion de paramètre
-  - meta name="description"
-  - class="tag"
-- notion de balise qui ne se ferme pas img
-- utilisation de wordpress
-  - création entrée de blog
-  - distinction visuel/HTML
-  - commentaires 
-  - interaface d'administration
-  - pas vu : éditeur / auteur 
+Les élèves se sont connectés sur un serveur FTP mis à leur disposition.
+Comme le client FTP FileZilla n'était pas installé, nous avons utilisé
+cette interface web : http://webftp.dreamhost.com.
+
+Chaque élève a créé un document =.txt= (avec Wordpad) sur le serveur.  Il a
+copié-collé des éléments de code HTML trouvés sur d'autres pages sur ce
+document =.txt=, puis l'a renommé en =.html= .  Nous avons ensuite passé en
+revue quelques-uns de ces éléments HTML et expliqué leur fonctionnement.
+Nous avons enfin fait une page d'[[http://malibellulo.net/][index]] contenant toutes les pages créées.
+
+Dans la dernière heure, les élèves ont exploré Wordpress, à la fois du côté
+auteur/éditeur et du côté administrateur.  Le blog avec les tests se trouve
+sur http://blog.malibellulo.net.
 
 * Initiation FTP
 
 #+INDEX: FTP
+#+INDEX: FTP!Port
+#+INDEX: FTP!Client
+#+INDEX: FTP!Serveur
+#+index: Format!txt
+#+index: Format!html
+#+index: Fichier!Conventions de nommage
 
-Activités TD: 
+- Connexion à malibellulo.net 
+  - nom de domaine
+  - nom d'utilisateur
+  - numéro de port
 
-- Test sur FTP dédié (perso Bastien)
-- création d'une page web par élève
-- création d'une page collective
+- Exploration de l'interface Web pour le FTP
+  - Répertoires
+  - Actions sur les fichiers et répertoires (créer, effacer, renommer,
+    éditer)
+  - création d'un document =.txt=
+  - renommer ce document en =.html=
+  - conseils sur les noms de fichier (donc les URL)
+    - éviter les espaces
+    - éviter les accents
+    - éviter les caractères spéciaux
+- voir le fichier créé via le web
+- Création d'une page d'index
+  - notion d'index comme page spéciale
 
 ** COMMENT Informations de connexion
 
@@ -66,94 +61,104 @@ Activités TD:
 * Initiation HTML
 
 #+INDEX: HTML
+#+index: Code source
+#+index: <html> 
+#+index: <body>
+#+index: <head>
+#+index: <title>
+#+index: <meta name="...">
+#+index: <a href="...">
+#+index: <img src="..."
+#+index: <p>
+#+index: <li>
+#+index: Lien
+#+index: Lien!Nom
+#+index: Lien!URI
+#+index: Lien!Interne
+#+index: Lien!Ancre
+#+index: Balise HTML
+#+index: Balise HTML!Ouvrante
+#+index: Balise HTML!Fermante
+#+index: Balise HTML!Paramètre
 
-Pourquoi regarder le code HTML d'un site ?  Voir par exemple : [[http://www.ebouquin.fr/2011/09/26/amazon-la-tablette-et-le-streaming-debook-caches-dans-le-code/][Amazon : la
-tablette et le streaming d’ebook cachés dans le code]]
+- Notion de /code source/ HTML.
+- Comment accéder au code source d'une page ?
+- Distinction entre les /élements de mise en forme/ (les balises, en
+  couleur dans le code source) et le /contenu/ (souvent en noir dans le
+  code source).
 
-Activité TD:
+- Liste des éléments HTML observés:
 
-- copier-coller de bout de code HTML
-- liste collective des éléments rencontrés
-- explications et réponses aux questions sur ces éléments
-- inclure des éléments localement disponibles sur le serveur
-- inclure des éléments distants (accessibles via une autre URI)
-- notion de /embedded/
+  #+begin_example
+  <html> 
+  <body>
+  <head>
+  <title>
+  <meta name="...">
+  <a href="...">
+  <img src="..."
+  <p>
+  <li>
+  #+end_example
 
-** Liste indicative des balises HTML à découvrir
+- Structure de la page par emboîtement successifs.
 
-#+INDEX: <html> 
-#+INDEX: <p>
-#+INDEX: <b> 
-#+INDEX: <em> 
-#+INDEX: <i>
-#+INDEX: <ul> 
-#+INDEX: <li>
-#+INDEX: <a ...>
-#+INDEX: <head>
+- Exploration approfondie de la notion de lien =<a href...>=:
+  
+  - URL ciblée par le lien: =<a href=URI>...</a>=
+  - Le nom du lien =<a href...>NOM DU LIEN</a>=
+  - Paramètres en plus: =<a href... title...>=
+  - Liens internes:
+    - "ancre" du lien interne : =<a name=NOM>= 
+    - URL ciblant le lien interne : =<a href=#NOM>=
 
-: <html> 
-: <p>
-: <b> 
-: <em> 
-: <i>
-: <ul> 
-: <li>
-: <a ...>
-: <img ...>
-: <head>
-: ...
+- Notion de /paramètre/ d'une balise.
 
-* Exploration des outils
+- Explication pour le paramètre =class= (en lien avec les feuilles de
+  style, que nous verrons plus tard)
 
-2 groupes, chacun explorant un outil en particulier.
+- Balises ouvrantes et fermantes - cas particulier de certaines balises
+  comme =<img>=, sans balise fermante.
+
+* Exploration de Wordpress
 
 ** Wordpress
 
 #+INDEX: Wordpress
+#+INDEX: Wordpress!Blog
+#+index: Wordpress!Administration
+#+index: Wordpress!Édition
+#+index: Wordpress!Widget
 
-- Présentation rapide
+- Présentation rapide du blog http://blog.malibellulo.org
+- Connexion à l'interface d'édition avec un utilisateur commun (denis1)
+- Création d'entrées de blog par chaque élève
+- Distinction des interfaces "Visual" et HTML dans l'éditeur
+- Test de mises à jour dans "Visual" et dans HTML
+- Notions de droits d'accès : auteur / éditeur / administrateur
+- Exploration des élements de mise en forme d'une entrée de blog
+  - insertion de texte
+  - insertion d'images
+- Exploration des élements de mise en forme du blog entier
+  - Trouver des nouveaux thèmes
+  - À quoi servent les widgets
+  - Éditer la feuille de style à la main
 
-Activités TD:
-
-- Découverte de l'interface d'administration
-
-** Dokuwiki (ou mediawiki)
-
-#+INDEX: Mediawiki
-#+INDEX: Syntaxe wiki
-
-- Présentation rapide
-
-Activités TD:
-
-- Création d'une page
-- Création de liens
-- Mise en forme de texte
-- Insertion d'une image
-- ...
-
-* COMMENT Esquisse du cours
-
-- 1h30: Structure du web
-  - client / serveur
-  - site statique / site dynamique
-  - Les « adresses » : IP, URL et URIs
-  - Les noms : nom de machine, nom de domaine, DNS
-  - Les protocoles (http, ftp, ...)
-
-- 1h30: Typologie empirique des sites web parcourus dans la classe
-  - site statique ou dynamique ?
-  - quels droits sur les contenus ?
-  - site collaboratif ? participatif ?
-  - quel langage dynamique utilisé ?
-  - utilisation d'une base de donnée ?
-  - quelle structure de l'ensemble du site ?
-
-* COMMENT Pour aller plus loin
 * Webographie
 
-- La guerre des navigateurs web: [[http://news.slashdot.org/story/11/09/29/1945201/chrome-set-to-take-no-2-spot-from-firefox][Google Chrome en passe de doubler Firefox?]]
-- Évolution de l'usage des navigateurs web: [[http://fr.wikipedia.org/wiki/%25C3%2589volution_de_l%2527usage_des_navigateurs_Web][article Wikipédia]]
+- Pourquoi regarder le code HTML d'un site ?  Voir par exemple : [[http://www.ebouquin.fr/2011/09/26/amazon-la-tablette-et-le-streaming-debook-caches-dans-le-code/][Amazon :
+  la tablette et le streaming d’ebook cachés dans le code]]
 
-* COMMENT Bibliographie
+* Vocabulaire
+
+- FTP
+- Code source
+- Wordpress
+- Nom de fichier
+- Balise HTML
+- Widget
+- Lien
+- Ancre (lien)
+- URI
+
 * Commentaires
