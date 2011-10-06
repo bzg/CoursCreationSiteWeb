@@ -47,52 +47,12 @@
   - interaface d'administration
   - pas vu : éditeur / auteur 
 
-* Qu'est-ce qu'un navigateur web ?
 * Initiation FTP
 
 #+INDEX: FTP
-#+INDEX: Internet Explorer
-#+INDEX: Firefox
-#+INDEX: Opéra
-#+INDEX: Konqueror
-#+INDEX: Google Chrome
-#+INDEX: Xulrunner
-#+INDEX: Webkit
-#+INDEX: Java
-#+INDEX: Javascript
-#+INDEX: Cookie
-#+INDEX: Php
-#+INDEX: Serveur
-#+INDEX: Client-Serveur
-#+INDEX: Base de donnée
-#+INDEX: Navigateur Web
-#+INDEX: Mysql
-#+INDEX: Apache
-#+INDEX: LAMP
-
-- Présentation de ce qu'est un /navigateur web/
-
-  - Passage en revue des fonctions des différentes navigateurs:
-    Internet Explorer, Firefox, Google Chrome, Opéra, Konqueror
-
-  - Distinction Navigateur web et moteur (webkit, xulrunner, etc.)
-
-- Qu'est-ce qu'il se passe entre le navigateur et la machine ?
-
-- Présentation du concept de serveur
-
-- Présentation de la relation client-serveur
-  
-  - Où s'exécute le code ?
-    - Sur le serveur (ex. php)
-    - Sur ma machine (ex. javascript)
-
-- Rapide survol Apache/Mysql/Php
-- Mentions des alternatives pour chaque couche : nginx, nosql, python
 
 Activités TD: 
 
-- Test de plusieurs navigateurs (Internet Explorer, Firefox, Konqueror)
 - Test sur FTP dédié (perso Bastien)
 - création d'une page web par élève
 - création d'une page collective
