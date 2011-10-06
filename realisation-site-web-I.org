@@ -1,6 +1,7 @@
 #+TITLE: Cours n°9: Réalisation d'un site web I - cahier des charges (évaluation)
 #+AUTHOR: Bastien Guerry
 #+LANGUAGE: fr
+#+DATE: 2011-2012
 #+OPTIONS:  skip:nil toc:t
 #+STARTUP:  even hidestars unfold
 

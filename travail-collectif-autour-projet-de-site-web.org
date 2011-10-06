@@ -1,6 +1,7 @@
 #+TITLE: Cours n°12: Travail de groupe autour d'un projet de site Web
 #+AUTHOR: Bastien Guerry
 #+LANGUAGE: fr
+#+DATE: 2011-2012
 #+OPTIONS:  skip:nil toc:t
 #+STARTUP:  even hidestars unfold
 

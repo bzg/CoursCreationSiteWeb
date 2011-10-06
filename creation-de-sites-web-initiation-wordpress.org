@@ -1,6 +1,7 @@
 #+TITLE: Cours n°5: Exploration et prise en main de Wordpress
 #+AUTHOR: Bastien Guerry
 #+LANGUAGE: fr
+#+DATE: 2011-2012
 #+OPTIONS:  skip:nil toc:nil
 #+STARTUP:  even hidestars unfold
 

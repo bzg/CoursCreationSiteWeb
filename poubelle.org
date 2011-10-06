@@ -1,0 +1,3 @@
+* COMMENT Cours 4: [[file:creation-de-sites-web-elements-de-mise-en-forme-I.org][Éléments de mise en forme I pour le Web]]
+* COMMENT Cours 4: [[file:formats-web-methodes-pour-choisir-un-outil-de-creation-de-sites.org][Formats Web -- Méthodes pour choisir un outil]]
+* COMMENT Cours 5: [[file:creation-de-sites-web-elements-de-mise-en-forme-II.org][Éléments de mise en forme II pour le Web]]

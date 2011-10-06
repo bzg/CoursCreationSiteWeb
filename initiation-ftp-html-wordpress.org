@@ -1,5 +1,6 @@
 #+TITLE: Cours n°2: Initiation FTP, HTML et exploration des outils
 #+AUTHOR: Bastien Guerry
+#+DATE: 2011-2012
 #+LANGUAGE: fr
 #+OPTIONS:  skip:nil toc:t
 #+STARTUP:  even hidestars unfold

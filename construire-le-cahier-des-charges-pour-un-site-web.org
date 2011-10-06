@@ -1,6 +1,7 @@
 #+TITLE: Cours n°7: Construire le cahier des charges d'un site web
 #+STARTUP:  even hidestars unfold
 #+LANGUAGE: fr
+#+DATE: 2011-2012
 #+OPTIONS:  skip:nil toc:t
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]

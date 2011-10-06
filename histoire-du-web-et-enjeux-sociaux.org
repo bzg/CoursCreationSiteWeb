@@ -1,6 +1,7 @@
 #+TITLE: Cours n°1: Présentation du cours, histoire du Web et enjeux sociaux
 #+AUTHOR: Bastien Guerry
 #+LANGUAGE: fr
+#+DATE: 2011-2012
 #+OPTIONS:  skip:nil toc:t
 #+STARTUP:  even hidestars unfold
 

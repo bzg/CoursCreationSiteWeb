@@ -1,0 +1,23 @@
+#+TITLE: Cours n°3: Initiation FileZilla - Suite HTML - exploration Kompozer et MediaWiki
+#+AUTHOR: Bastien Guerry - Paris 7 -- 2011-2012
+#+DATE: 2011-2012
+#+LANGUAGE: fr
+#+LATEX_HEADER: \usepackage[french]{babel}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}
+
+[[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
+
+* Rappels du cours n°2
+
+* Le FTP avec FileZilla
+
+* Qu'est-ce qu'un navigateur web ?
+
+* Nouveaux éléments de HTML
+
+* Découverte de Kompozer
+
+* Découverte de MediaWiki

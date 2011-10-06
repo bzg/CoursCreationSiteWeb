@@ -1,0 +1,9 @@
+#+TITLE: Cours n°4: Serveur LAMP et Formats Web
+#+AUTHOR: Bastien Guerry - Paris 7 -- 2011-2012
+#+DATE: 2011-2012
+#+LANGUAGE: fr
+#+LATEX_HEADER: \usepackage[french]{babel}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}

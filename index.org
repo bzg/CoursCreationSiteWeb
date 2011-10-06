@@ -1,6 +1,6 @@
 #+TITLE: Cours de création de sites Web 
 #+AUTHOR: Bastien Guerry - Paris 7 -- 2011-2012
-#+DATE: Septembre 2011
+#+DATE: 2011-2012
 #+LANGUAGE: fr
 #+LATEX_HEADER: \usepackage[french]{babel}
 #+LATEX_HEADER: \usepackage{hyperref}
@@ -8,18 +8,24 @@
 #+LATEX_HEADER: \usepackage{geometry}
 #+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}
 
-* Cours 1: [[file:histoire-du-web-et-enjeux-sociaux.org][Présentation du cours, histoire du Web et enjeux sociaux]]
-* Cours 2: [[file:initiation-ftp-html-outils.org][Initiation FTP, HTML et exploration des outils]]
-* Cours 3: [[file:formats-web-outils-et-methodes-pour-choisir-un-outil-de-creation-de-sites.org][Formats, outils et méthode pour choisir un outil]]
-* Cours 4: [[file:creation-de-sites-web-elements-de-mise-en-forme-I.org][Éléments de mise en forme I pour le Web]]
-* Cours 5: [[file:creation-de-sites-web-elements-de-mise-en-forme-II.org][Éléments de mise en forme II pour le Web]]
-* Cours 6: [[file:creation-de-sites-web-initiation-wordpress.org][Exploration d'un outil en particulier : Wordpress]]
-* Cours 7: [[file:construire-le-cahier-des-charges-pour-un-site-web.org][Construction d'un cahier des charges de site Web]]
-* Cours 8: [[file:conception-d-un-projet-de-site-web.org][Conception d'un projet de site Web]]
-* Cours 9: [[file:realisation-site-web-I.org][Réalisation site web I (cahier des charges) {Évaluation}]]
-* Cours 10: [[file:realisation-site-web-II.org][Réalisation site web II (conception)]]
-* Cours 11: [[file:realisation-site-web-III.org][Réalisation site web III (code) {Évaluation}]]
-* Cours 12: [[file:travail-collectif-autour-projet-de-site-web.org][Travail collectif autour d'un projet de site Web {Évaluation}]]
+* Cours passés
+
+** Cours 1: [[file:histoire-du-web-et-enjeux-sociaux.org][Présentation du cours, histoire du Web et enjeux sociaux]]
+** Cours 2: [[file:initiation-ftp-html-wordpress.org][Initiation FTP, HTML et exploration Wordpress]]
+
+* Cours à venir (en cours de rédaction)
+
+** Cours 3: [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org][Initiation FileZilla - Suite HTML - Kompozer et MediaWiki]]
+** Cours 4: [[file:navigateur-serveur-lamp-formats-web.org][Navigateur - Serveur (LAMP) - Formats Web]]
+** Cours 5: Rédiger pour le web - Référencement et suivi
+** Cours 6: [[file:creation-de-sites-web-initiation-wordpress.org][Exploration d'un outil en particulier : Wordpress]]
+** Cours 7: [[file:construire-le-cahier-des-charges-pour-un-site-web.org][Construction d'un cahier des charges de site Web]]
+** Cours 8: [[file:conception-d-un-projet-de-site-web.org][Conception d'un projet de site Web]]
+** Cours 9: [[file:realisation-site-web-I.org][Réalisation site web I (cahier des charges) {Évaluation}]]
+** Cours 10: [[file:realisation-site-web-II.org][Réalisation site web II (conception)]]
+** Cours 11: [[file:realisation-site-web-III.org][Réalisation site web III (code) {Évaluation}]]
+** Cours 12: [[file:travail-collectif-autour-projet-de-site-web.org][Travail collectif autour d'un projet de site Web {Évaluation}]]
+
 * [[file:theindex.org][Index des notions]]
 * Droits d'auteur
 
