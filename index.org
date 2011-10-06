@@ -10,12 +10,12 @@
 
 * Cours passés
 
-** Cours 1: [[file:histoire-du-web-et-enjeux-sociaux.org][Présentation du cours, histoire du Web et enjeux sociaux]]
-** Cours 2: [[file:initiation-ftp-html-wordpress.org][Initiation FTP, HTML et exploration Wordpress]]
+** Cours 1: [[file:histoire-du-web-et-enjeux-sociaux.org][Présentation du cours, histoire du Web et enjeux sociaux]] ([[file:histoire-du-web-et-enjeux-sociaux.pdf][pdf]])
+** Cours 2: [[file:initiation-ftp-html-wordpress.org][Initiation FTP, HTML et exploration Wordpress]] ([[file:initiation-ftp-html-wordpress.pdf][pdf]])
 
 * Cours à venir (en cours de rédaction)
 
-** Cours 3: [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org][Initiation FileZilla - Suite HTML - Kompozer et MediaWiki]]
+** Cours 3: [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org][Initiation FileZilla - Suite HTML - Kompozer et MediaWiki]] ([[file:initiation-ftp-filezilla-html-kompozer-mediawiki.pdf][pdf]])
 ** Cours 4: [[file:navigateur-serveur-lamp-formats-web.org][Navigateur - Serveur (LAMP) - Formats Web]]
 ** Cours 5: Rédiger pour le web - Référencement et suivi
 ** Cours 6: [[file:creation-de-sites-web-initiation-wordpress.org][Exploration d'un outil en particulier : Wordpress]]

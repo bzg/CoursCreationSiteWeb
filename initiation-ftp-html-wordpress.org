@@ -4,6 +4,11 @@
 #+LANGUAGE: fr
 #+OPTIONS:  skip:nil toc:t
 #+STARTUP:  even hidestars unfold
+#+LATEX_HEADER: \usepackage[french]{babel}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
@@ -122,8 +127,6 @@ sur http://blog.malibellulo.net.
   comme =<img>=, sans balise fermante.
 
 * Exploration de Wordpress
-
-** Wordpress
 
 #+INDEX: Wordpress
 #+INDEX: Wordpress!Blog

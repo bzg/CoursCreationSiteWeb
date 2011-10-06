@@ -1,8 +1,15 @@
 #+TITLE: Cours n°7: Construire le cahier des charges d'un site web
+#+AUTHOR: Bastien Guerry
+#+DATE: 2011-2012
 #+STARTUP:  even hidestars unfold
 #+LANGUAGE: fr
-#+DATE: 2011-2012
 #+OPTIONS:  skip:nil toc:t
+#+STARTUP:  even hidestars unfold
+#+LATEX_HEADER: \usepackage[french]{babel}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 

@@ -4,6 +4,7 @@
    - [[file:initiation-ftp-html-wordpress.org::#sec-3][<a href="...">]]
    - [[file:initiation-ftp-html-outils.org::#sec-2-1][<b>]]
    - [[file:initiation-ftp-html-wordpress.org::#sec-3][<body>]]
+   - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-5-1][<dl>]]
    - [[file:initiation-ftp-html-outils.org::#sec-2-1][<em>]]
    - [[file:initiation-ftp-html-wordpress.org::#sec-3][<head>]]
    - [[file:initiation-ftp-html-outils.org::#sec-2-1][<head>]]
@@ -14,10 +15,12 @@
    - [[file:initiation-ftp-html-wordpress.org::#sec-3][<li>]]
    - [[file:initiation-ftp-html-outils.org::#sec-2-1][<li>]]
    - [[file:initiation-ftp-html-wordpress.org::#sec-3][<meta name="...">]]
+   - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-5-1][<ol>]]
    - [[file:initiation-ftp-html-wordpress.org::#sec-3][<p>]]
    - [[file:initiation-ftp-html-outils.org::#sec-2-1][<p>]]
    - [[file:initiation-ftp-html-wordpress.org::#sec-3][<title>]]
    - [[file:initiation-ftp-html-outils.org::#sec-2-1][<ul>]]
+   - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-5-1][<ul>]]
 ** A
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-7][Adresse IP]]
    - [[file:initiation-ftp-html-outils.org::#sec-1][Apache]]
@@ -43,6 +46,7 @@
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-5][Communautaire]]
    - [[file:initiation-ftp-html-outils.org::#sec-1][Cookie]]
    - [[file:navigateur-serveur-lamp-formats-web.org::#sec-2][Cookie]]
+   - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-6-6][CSS]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-4][Cyberduck]]
 ** D
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-4][Dokuwiki]]
@@ -52,6 +56,7 @@
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-4][Editeur de texte]]
 ** F
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-10-2][facebook.com]]
+   - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-6-6][Feuille de style]]
    - Fichier
      - [[file:initiation-ftp-html-wordpress.org::#sec-2][Conventions de nommage]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-4][FileZilla]]
@@ -76,6 +81,9 @@
 ** H
    - [[file:initiation-ftp-html-wordpress.org::#sec-3][HTML]]
    - [[file:initiation-ftp-html-outils.org::#sec-2][HTML]]
+   - HTML
+     - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-5-1][Listes]]
+     - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-5-2][Tableaux]]
 ** I
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-5][Interactivité]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-7][Internet (et Web)]]
@@ -103,7 +111,7 @@
 ** M
    - [[file:initiation-ftp-html-outils.org::#sec-3-2][Mediawiki]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-4][Mediawiki]]
-   - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-6][Mediawiki]]
+   - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-7][Mediawiki]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-10-1][microsoft.com]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-10-1][msn.com]]
    - [[file:initiation-ftp-html-outils.org::#sec-1][Mysql]]
@@ -132,7 +140,7 @@
    - [[file:navigateur-serveur-lamp-formats-web.org::#sec-2][Serveur]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-7][Sous-domaine]]
    - [[file:initiation-ftp-html-outils.org::#sec-3-2][Syntaxe wiki]]
-   - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-6][Syntaxe wiki]]
+   - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-7][Syntaxe wiki]]
 ** T
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-4][Traitement de texte]]
 ** U
@@ -146,14 +154,14 @@
    - [[file:initiation-ftp-html-outils.org::#sec-1][Webkit]]
    - [[file:navigateur-serveur-lamp-formats-web.org::#sec-2][Webkit]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-10-1][wikipedia.org]]
-   - [[file:initiation-ftp-html-wordpress.org::#sec-4-1][Wordpress]]
+   - [[file:initiation-ftp-html-wordpress.org::#sec-4][Wordpress]]
    - [[file:initiation-ftp-html-outils.org::#sec-3-1][Wordpress]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-4][Wordpress]]
    - Wordpress
-     - [[file:initiation-ftp-html-wordpress.org::#sec-4-1][Administration]]
-     - [[file:initiation-ftp-html-wordpress.org::#sec-4-1][Blog]]
-     - [[file:initiation-ftp-html-wordpress.org::#sec-4-1][Widget]]
-     - [[file:initiation-ftp-html-wordpress.org::#sec-4-1][Édition]]
+     - [[file:initiation-ftp-html-wordpress.org::#sec-4][Administration]]
+     - [[file:initiation-ftp-html-wordpress.org::#sec-4][Blog]]
+     - [[file:initiation-ftp-html-wordpress.org::#sec-4][Widget]]
+     - [[file:initiation-ftp-html-wordpress.org::#sec-4][Édition]]
 ** X
    - [[file:initiation-ftp-html-outils.org::#sec-1][Xulrunner]]
    - [[file:navigateur-serveur-lamp-formats-web.org::#sec-2][Xulrunner]]
