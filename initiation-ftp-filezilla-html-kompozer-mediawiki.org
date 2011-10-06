@@ -10,32 +10,130 @@
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
+* Résumé
 * Rappels du cours n°2
+
+- Connexion FTP
+- Éléments de HTML
+- Exploration blog
+- Ce qui a été fait entre ce cours et le dernier sur le site
 
 * Le FTP avec FileZilla
 
+Voir les captures d'écran ici:
+
+http://filezilla-project.org/client_screenshots.php
+
 * Qu'est-ce qu'un navigateur web ?
+
+http://en.wikipedia.org/wiki/List_of_web_browsers
+
+** Liste de navigateurs
+
+- Internet Explorer
+- Mozilla Firefox
+- Google Chrome
+- Opéra
+- Konqueror
+- conqueror
+
+*** Navigateurs pour mobile
+
+** Moteurs de rendus
+
+- Moteurs de rendu web (layout engine)
+  - Gecko (Firefox)
+  - Webkit (Safari and Chromium)
+  - ...
 
 * Nouveaux éléments de HTML
 
-- pas vu
-  table
-  ul ol dl
-  br/
-  style
-  font size / color
+** Les listes
+
+#+index: <ul>
+#+index: <ol> 
+#+index: <dl>
+#+index: HTML!Listes
+
+- =<ul> <ol> <dl>=
+- Listes imbriquées
+- Modifier l'apparence de la puce?
+
+** Les tableaux
+
+- =<table> <tr> <td>=
+- Alignement et mise en forme de base
+
+#+index: HTML!Tableaux
+
+** Introduction du paramètre =style==
+
+- style d'un paragraphe
+- style d'une cellule de tableau
+- distinction entre =class= et =id=
+
+** Notion de feuille de style 
+
+- Comment indiquer la feuille de style utilisée dans une page web
+- Récupération de feuilles de styles sur Internet (copier-coller)
+- Styles plus avancés (http://www.csszengarden.com)
 
 * Découverte de Kompozer
+
+** Écran d'accueil
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: écran d'accueil
+[[file:images/kompozer1.jpg]]
+
+** Éditeur WYSIWYG
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: éditeur WYSIWYG
+[[file:images/kompozer2.jpg]]
+
+
+** Éditer le code source HTML
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: éditer le code source HTML
+[[file:images/kompozer3.jpg]]
+
+** Vue combinant WYSIWYG et code source
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: vue combinant WYSIWYG et code source
+[[file:images/kompozer5.jpg]]
+
+** Configuration de la connexion FTP
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: écran d'accueil
+[[file:images/kompozer6.jpg]]
+
+** Édition des styles (CSS)
+
+#+index: CSS
+#+index: Feuille de style
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: écran d'accueil
+[[file:images/kompozer7.jpg]]
 
 * Découverte de MediaWiki
 
 #+INDEX: Mediawiki
 #+INDEX: Syntaxe wiki
 
+** Capture d'écran wiki.malibellulo.net
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Mediawiki: écran d'accueil
+[[file:images/mediawiki1.jpg]]
+
+** Atelier pratique
+
 - Présentation rapide
-
-Activités TD:
-
 - Création d'une page
 - Création de liens
 - Mise en forme de texte
@@ -45,3 +143,10 @@ Activités TD:
 
 
 
+
+* Vocabulaire
+
+- Feuille de style
+- CSS 
+
+* Commentaire

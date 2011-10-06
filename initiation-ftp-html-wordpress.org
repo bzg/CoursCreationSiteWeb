@@ -7,6 +7,7 @@
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
+* COMMENT TODO Ajouter captures d'écran
 * Résumé
 
 Les élèves se sont connectés sur un serveur FTP mis à leur disposition.
@@ -101,7 +102,7 @@ sur http://blog.malibellulo.net.
   <li>
   #+end_example
 
-- Structure de la page par emboîtement successifs.
+- Structure de la page par /emboîtements successifs/.
 
 - Exploration approfondie de la notion de lien =<a href...>=:
   
