@@ -234,6 +234,9 @@ Quelques questions :
 
 ** Webographie
 
+- [[http://video.google.com/videoplay?docid%3D4989933629762859961][Computer Networks - The Heralds of Resource Sharing]], a documentary film
+  about the history of the ARPANET and birth of the Internet (in english.)
+
 - [[http://www.youtube.com/watch?v%3DeW8qjTd5hpQ][What Gog. and Facb. are Hiding]], TED Talk by Eli Pariser, May 2011
 
 - [[http://www.guardian.co.uk/technology/2011/sep/27/facebook-open-graph-web-underclass][Why Facebook's new Open Graph makes us all part of the web underclass]]
