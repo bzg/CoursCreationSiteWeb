@@ -242,6 +242,10 @@ Quelques questions :
 - [[http://www.guardian.co.uk/technology/2011/sep/27/facebook-open-graph-web-underclass][Why Facebook's new Open Graph makes us all part of the web underclass]]
   article de Adrian Short, /The Guardian/, Septembre 2011
 
+- [[http://gizmodo.com/5616108/the-history-of-the-internet-visualized][The History of the Internet, Visualized]], gizmodo
+
+- Carte interactive des câbles sous-marins : [[http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/][contexte]], [[http://www.submarinecablemap.com/][carte]].
+
 ** Bibliographie
 
 - /Le sacre de l'amateur/, Patrice Flichy, Seuil, 2010 ([[http://www.seuil.com/livre-9782021031447.htm][lien]])
@@ -274,7 +278,6 @@ Quelques questions :
 - Web profond
 - p2p ("réseau pair à pair")
 - Éditeur de texte
-
 
 * Droits d'auteur
 
