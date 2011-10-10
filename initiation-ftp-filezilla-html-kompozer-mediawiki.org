@@ -13,6 +13,9 @@
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
 * Résumé
+
+...
+
 * Rappels du cours n°2
 
 - Connexion FTP
@@ -22,9 +25,8 @@
 
 * Le FTP avec FileZilla
 
-Voir les captures d'écran ici:
-
-http://filezilla-project.org/client_screenshots.php
+- Voir les captures d'écran [[http://filezilla-project.org/client_screenshots.php][sur le site de FileZilla]].
+- Voir ce [[file:/vimeo.com/30296557][mini-screencast]].
 
 * Qu'est-ce qu'un navigateur web ?
 
@@ -39,7 +41,7 @@ http://en.wikipedia.org/wiki/List_of_web_browsers
 - Konqueror
 - conqueror
 
-*** Navigateurs pour mobile
+*** Navigateurs pour mobile?
 
 ** Moteurs de rendus
 
@@ -48,12 +50,17 @@ http://en.wikipedia.org/wiki/List_of_web_browsers
   - Webkit (Safari and Chromium)
   - ...
 
+** Frise chronologique de l'évolution des navigateurs
+
+#+ATTR_HTML: width=700px
+[[file:images/Timeline_of_web_browsers.svg]]
+
 * Nouveaux éléments de HTML
 
 ** Les listes
 
 #+index: <ul>
-#+index: <ol> 
+#+index: <ol>
 #+index: <dl>
 #+index: HTML!Listes
 
@@ -74,7 +81,7 @@ http://en.wikipedia.org/wiki/List_of_web_browsers
 - style d'une cellule de tableau
 - distinction entre =class= et =id=
 
-** Notion de feuille de style 
+** Notion de feuille de style
 
 - Comment indiquer la feuille de style utilisée dans une page web
 - Récupération de feuilles de styles sur Internet (copier-coller)
@@ -142,15 +149,17 @@ http://en.wikipedia.org/wiki/List_of_web_browsers
 - Insertion d'une image
 - ...
 
+* Webographie
 
-
-
+- [[http://filezilla-project.org/][Le projet FileZilla]]
+- [[http://en.wikipedia.org/wiki/List_of_web_browsers][Liste de navigateurs web]] (Wikipédia)
+- [[http://en.wikipedia.org/wiki/File:Timeline_of_web_browsers.svg][Frise chronologique de l'évolution des navigateurs web]] (Wikipédia)
 
 * Vocabulaire
 
 - Feuille de style
-- CSS 
-
+- CSS
+- Moteur de rendu
 
 * Droits d'auteur
 
