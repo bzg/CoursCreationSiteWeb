@@ -26,7 +26,11 @@
 * Le FTP avec FileZilla
 
 - Voir les captures d'écran [[http://filezilla-project.org/client_screenshots.php][sur le site de FileZilla]].
-- Voir ce [[http://vimeo.com/30296557][mini-screencast]].
+- Voir ce [[http://vimeo.com/30296557][mini-screencast]]:
+
+#+begin_html
+<iframe src="http://player.vimeo.com/video/30296557?title=0&amp;byline=0&amp;portrait=0" width="800" height="600" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+#+end_html
 
 * Qu'est-ce qu'un navigateur web ?
 
