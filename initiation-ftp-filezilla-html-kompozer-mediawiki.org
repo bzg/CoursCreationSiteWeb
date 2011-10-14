@@ -14,19 +14,57 @@
 
 * Résumé
 
-...
+Dans ce cours, nous faisons quelques rappels de notions de HTML abordées
+dans le cours n°2 et nous complétons ces notions en présentant les listes
+numérotés (=<ol>=), les listes descriptives (=<dl>=), les tables, et les
+éléments ne comportant pas de balises fermantes (=<img ... />=, =<br />=,
+=<hr />=.)
+
+#+index: <ol>
+#+index: Liste ordonnées
+#+index: <dl>
+#+index: <dd>
+#+index: Liste descriptive
+#+index: Moteur de rendu
+#+index: Navigateur web
+
+Nous expliquons le fonctionnement du client FTP FileZilla et nous passons
+succinctement en revue plusieurs navigateurs web et leur architecture
+générale (notamment la distinction entre le moteur de rendu et les autres
+parties du navigateur.)
+
+#+index: Client
+#+index: Serveur
+#+index: Php
+#+index: Formulaire
+
+Nous présentons la relation fondamentale =Client-Serveur=.  Nous expliquons
+comment l'information est transférée dans une page dynamique, depuis le
+navigateur web de la machine client jusqu'au serveur, en passant par les
+pages de formulaire et l'interrogation d'une base de données.
+
+#+index: Mediawiki
+#+index: Wiki
+
+Finalement, nous nous initions à la syntaxe mediawiki en faisant des tests
+sur http://wiki.malibellulo.net.
 
 * Rappels du cours n°2
 
-- Connexion FTP
-- Éléments de HTML
-- Exploration blog
-- Ce qui a été fait entre ce cours et le dernier sur le site
+- Connexion FTP (via le client en ligne http://www.net2ftp.com)
+- Éléments de HTML (=<html> <body> <head> <p> <a ...> <li>=)
+- Présentation de l'évolution de la page http://malibellulo.net/index.html
+  depuis le dernier cours.  Explications d'une élève concernant les
+  éléments ajoutés à la feuille de style.
 
-* Le FTP avec FileZilla
+* Le client FTP FileZilla
 
-- Voir les captures d'écran [[http://filezilla-project.org/client_screenshots.php][sur le site de FileZilla]].
-- Voir ce [[http://vimeo.com/30296557][mini-screencast]]:
+#+index: FileZilla
+#+index: FileZilla!Screencast
+
+- Site web de [[file:/filezilla-project.org][FileZilla]]
+- Captures d'écran [[http://filezilla-project.org/client_screenshots.php][sur le site de FileZilla]].
+- [[http://vimeo.com/30296557][Mini-screencast]]:
 
 #+begin_html
 <iframe src="http://player.vimeo.com/video/30296557?title=0&amp;byline=0&amp;portrait=0" width="800" height="600" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
@@ -34,30 +72,68 @@
 
 * Qu'est-ce qu'un navigateur web ?
 
-http://en.wikipedia.org/wiki/List_of_web_browsers
+** Liste (non exhaustive) de navigateurs
 
-** Liste de navigateurs
+- [[google:Internet%20Explorer][Internet Explorer]]
+- [[google:Mozilla%20Firefox][Mozilla Firefox]]
+- [[google:Google%20Chrome][Google Chrome]]
+- [[google:Opera][Opera]]
+- [[google:Konqueror][Konqueror]]
+- [[google:Conqueror][Conqueror]]
+- [[google:Epiphany][Epiphany]]
+- [[google:lynx%20web%20browser][lynx]]
+- [[google:w3m%20web%20browser][w3m]]
+- ...
+- http://en.wikipedia.org/wiki/List_of_web_browsers
 
-- Internet Explorer
-- Mozilla Firefox
-- Google Chrome
-- Opéra
-- Konqueror
-- conqueror
-
-*** Navigateurs pour mobile?
-
-** Moteurs de rendus
-
-- Moteurs de rendu web (layout engine)
-  - Gecko (Firefox)
-  - Webkit (Safari and Chromium)
-  - ...
-
-** Frise chronologique de l'évolution des navigateurs
+** Frise chronologique : l'évolution des navigateurs
 
 #+ATTR_HTML: width=700px
 [[file:images/Timeline_of_web_browsers.svg]]
+
+** Les moteurs de rendus
+
+Le moteur de rendu est la partie du navigateur responsable de
+l'interprétation du code HTML et de son rendu sous forme visuelle.
+
+Il est distinct du reste du navigateur, qui prend en charge l'interface du
+navigateur (menus, thèmes) et les autres fonctions (système d'extensions,
+etc.)
+
+:      +----------------------------+
+:      | Interface/Extensions/...   |
+:      |                            |
+:      |       +------------------+ |
+:      |       | Moteur de rendu  | |
+:      |       |                  | |
+:      |       |                  | |
+:      |       |                  | |
+:      |       |                  | |
+:      |       +------------------+ |
+:      +----------------------------+
+
+- [[http://fr.wikipedia.org/wiki/Moteur_de_rendu_HTML][Liste de moteurs de rendus]] (Wikipedia)
+
+* Survol de l'architecture Client-Serveur
+
+Le =client= est la machine qui se connecte à un site web.
+
+Le =serveur= est la machine qui délivre les pages web.
+
+Un exemple de structure classique :
+						  
+:       +------+      (1)    +------+-------+-------------+
+:       |      |    |----->  |      |       |   Base de   |
+:     --+------+--           | HTML<-> Php <->  données   |
+:    (   Client   ) <-----+  |      |       |   (mysql)   |
+:     ------------    (2)    +------+-------+-------------+
+
+La machine client envoie une requête au serveur et reçoit une page de
+formulaire en HTML =(1)=.  L'internaute remplit le formulaire, appuie sur
+envoyer, et les résultats sont envoyés à une page en =.php= qui traite les
+requêtes (par exemple, la page =.php= va aller chercher des données dans la
+base de données.)  Une fois ces requêtes traitées, le résultat est affiché
+dans une page HTML (par exemple des horaires de train.)
 
 * Nouveaux éléments de HTML
 
@@ -69,69 +145,108 @@ http://en.wikipedia.org/wiki/List_of_web_browsers
 #+index: HTML!Listes
 
 - =<ul> <ol> <dl>=
-- Listes imbriquées
-- Modifier l'apparence de la puce?
+- Possibilité d'imbriquer des listes entre elles
+
+*** Exemple
+
+- Un item
+  1. Un sous-item
+  2. Un autre sous-item
+- Un autre item
+
+#+begin_src html
+<ul>
+  <li>Un item
+  <ol>
+    <li>Un sous-item</li>
+    <li>Un autre sous-item</li>
+  </ol>
+  </li>
+  <li>Un autre item</li>
+</ul>
+#+end_src
 
 ** Les tableaux
 
 - =<table> <tr> <td>=
 - Alignement et mise en forme de base
 
+*** Exemples
+
 #+index: HTML!Tableaux
 
-** Introduction du paramètre =style==
+#+CAPTION: Un exemple de tableau
+| Nom    | Prénom |
+|--------+--------|
+| Norris | Chuck  |
 
-- style d'un paragraphe
-- style d'une cellule de tableau
-- distinction entre =class= et =id=
+Structure générale du tableau :
 
-** Notion de feuille de style
+#+begin_src html
+<table>
+  <tr><td>Nom</td><td>Prénom</td></tr>
+  <tr><td>Norris</td><td>Chuck</td></tr>
+</table>
+#+end_src
 
-- Comment indiquer la feuille de style utilisée dans une page web
-- Récupération de feuilles de styles sur Internet (copier-coller)
-- Styles plus avancés (http://www.csszengarden.com)
+Structure du tableau avec mise en forme :
 
-* Découverte de Kompozer
+#+begin_src html
+<table border="2" cellspacing="0" cellpadding="6">
+  <caption>Un exemple de tableau</caption>
+  <thead>
+    <tr><th>Nom</th><th>Prénom</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Norris</td><td>Chuck</td></tr>
+  </tbody>
+</table>
+#+end_src
 
-** Écran d'accueil
+** Les balises « non-fermantes »
 
-#+ATTR_HTML: width=700px
-#+CAPTION: Kompozer: écran d'accueil
-[[file:images/kompozer1.jpg]]
+#+index: <img ... />
+#+index: <br ... />
+#+index: <hr ... />
 
-** Éditeur WYSIWYG
+Certaines balises fonctionnent de manière particulire : elle ne se
+«ferment» pas.  Dans ce cas, la balise ouvrante doit s'achever par un
+/slash/.
 
-#+ATTR_HTML: width=700px
-#+CAPTION: Kompozer: éditeur WYSIWYG
-[[file:images/kompozer2.jpg]]
+- =<img ... />=
+- =<br ... />=
+- =<hr ... />=
 
+** Le paramètre =style==
 
-** Éditer le code source HTML
+Le paramètre =style= à l'intérieur d'une balise permet de modifier
+l'apparence de l'élément lié à cette balise sans avoir à recourir à une
+feuille de style externe.
 
-#+ATTR_HTML: width=700px
-#+CAPTION: Kompozer: éditer le code source HTML
-[[file:images/kompozer3.jpg]]
+*** Distinction entre =class= et =id=
 
-** Vue combinant WYSIWYG et code source
+=class= s'applique pour toute une classe d'éléments de mise en page
+(éléments qui se retrouvent à plusieurs endroits de la page HTML.)  Pour
+définir une classe dans une feuille de style =CSS=, on utilise le point:
 
-#+ATTR_HTML: width=700px
-#+CAPTION: Kompozer: vue combinant WYSIWYG et code source
-[[file:images/kompozer5.jpg]]
+#+begin_src css
+.blue {color="blue";}
+a.framed {border="1px";}
+#+end_src
 
-** Configuration de la connexion FTP
+=id= s'applique théoriquement à des éléments qui ne se trouve qu'une fois
+dans la page HTML.  Pour définir une =id= dans une feuille de style =CSS=,
+on utilise le dièse:
 
-#+ATTR_HTML: width=700px
-#+CAPTION: Kompozer: écran d'accueil
-[[file:images/kompozer6.jpg]]
+#+begin_src css
+#header {background="url(image)";}
+#+end_src
 
-** Édition des styles (CSS)
+** Aller plus loin avec les feuilles de style
 
-#+index: CSS
-#+index: Feuille de style
-
-#+ATTR_HTML: width=700px
-#+CAPTION: Kompozer: écran d'accueil
-[[file:images/kompozer7.jpg]]
+- Comment indiquer la feuille de style utilisée dans une page web ?
+- Récupération de feuilles de styles sur Internet
+- Styles plus avancés: http://www.csszengarden.com
 
 * Découverte de MediaWiki
 
@@ -149,21 +264,94 @@ http://en.wikipedia.org/wiki/List_of_web_browsers
 - Présentation rapide
 - Création d'une page
 - Création de liens
-- Mise en forme de texte
+- Mise en forme de texte (gras, italique, etc.)
 - Insertion d'une image
 - ...
+
+** Éléments de syntaxe pour Mediawiki
+
+#+index: Mediawiki!Syntaxe
+
+Quelques exemples:
+
+: = Une section =
+: 
+: Un paragraphe simple.
+: 
+: == Une sous-section ==
+: 
+: Un '''mot en gras''' et un '''autre en italiques'''.
+: 
+: == Liens ==
+: 
+: Un lien vers [http://malibellulo.net malibellulo.net].
+
+- [[http://fr.wikipedia.org/wiki/Aide:Syntaxe][Aide pour la syntaxe Mediawiki sur Wikipédia.]]
+
+* Pour aller plus loin
+
+** Découverte de Kompozer
+
+#+index: Kompozer
+
+Lors du cours n°3 nous n'avons pas pu utiliser Kompozer, qui ne permet pas
+de se connecter à un serveur FTP depuis la salle de TD.  Ci-dessous une
+introduction rapide à Kompozer, pour ceux qui veulent essayer depuis chez
+eux.
+
+*** Écran d'accueil
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: écran d'accueil
+[[file:images/kompozer1.jpg]]
+
+*** Éditeur WYSIWYG
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: éditeur WYSIWYG
+[[file:images/kompozer2.jpg]]
+
+*** Éditer le code source HTML
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: éditer le code source HTML
+[[file:images/kompozer3.jpg]]
+
+*** Vue combinant WYSIWYG et code source
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: vue combinant WYSIWYG et code source
+[[file:images/kompozer5.jpg]]
+
+*** Configuration de la connexion FTP
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: écran d'accueil
+[[file:images/kompozer6.jpg]]
+
+*** Édition des styles (CSS)
+
+#+index: CSS
+#+index: Feuille de style
+
+#+ATTR_HTML: width=700px
+#+CAPTION: Kompozer: écran d'accueil
+[[file:images/kompozer7.jpg]]
 
 * Webographie
 
 - [[http://filezilla-project.org/][Le projet FileZilla]]
 - [[http://en.wikipedia.org/wiki/List_of_web_browsers][Liste de navigateurs web]] (Wikipédia)
 - [[http://en.wikipedia.org/wiki/File:Timeline_of_web_browsers.svg][Frise chronologique de l'évolution des navigateurs web]] (Wikipédia)
+- [[http://youtu.be/nWCCLRgHT_k][Warriors of the Net]] (en français)
 
 * Vocabulaire
 
 - Feuille de style
 - CSS
-- Moteur de rendu
+- [[google:Moteur%20de%20rendu%20HTML][Moteur de rendu HTML]]
+- [[google:WYSIWYG][WYSIWYG]]
+- [[google:Architecture%20Client-Serveur][Architecture Client-Serveur]]
 
 * Droits d'auteur
 
