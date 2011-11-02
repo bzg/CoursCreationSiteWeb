@@ -10,16 +10,102 @@
 
 * Cours passés
 
+
 ** Cours 1: [[file:histoire-du-web-et-enjeux-sociaux.org][Présentation du cours, histoire du Web et enjeux sociaux]] ([[file:histoire-du-web-et-enjeux-sociaux.pdf][pdf]])
 ** Cours 2: [[file:initiation-ftp-html-wordpress.org][Initiation FTP, HTML et exploration Wordpress]] ([[file:initiation-ftp-html-wordpress.pdf][pdf]])
-
 ** Cours 3: [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org][Initiation FileZilla - Suite HTML - Kompozer et MediaWiki]] ([[file:initiation-ftp-filezilla-html-kompozer-mediawiki.pdf][pdf]])
 
+** Cours 4: [[file:formats-web-cahier-des-charges-site-web.org][Formats web - Cahier des charges d'un site Web]]
 
 * Cours à venir (en cours de rédaction)
 
-** Cours 4: [[file:navigateur-serveur-lamp-formats-web.org][Navigateur - Serveur (LAMP) - Formats Web]]
-** Cours 5: Rédiger pour le web - Référencement et suivi
+** NEXT Cours 5: Outils pour le développeur web
+
+*** Interoperabilité et formats ouverts
+
+- HTML validator CSS validator
+- Format ouvert ?
+- Format libre ?
+- Format interopérable ?
+- Compatibilité ?
+- Exemple de fil XML Fil RSS
+
+*** Extensions firefox utiles
+
+- DOM Document model
+
+- Firebug
+- WebDeveloper
+- FireShot
+- HTML Validator
+- Total Validator
+- Greasemonkey
+- CSS viewer
+- YSlow (vitesse de la page web)
+- Fire FTP
+- ColorZila (pour la charte graphique)
+
+*** Outils pour le développeur
+
+- Org-mode pour la roadmap
+- http://yuml.me/diagram/scruffy/usecase/draw
+
+*** Ergonomie et rédaction pour le web
+
+- http://www.ergolab.net/
+
+*** Cours réel
+
+- Introduction sur les objectifs du cours : 
+  - plaisir/intérêt
+  - autonomie
+
+    "La différence entre la théorie et la pratique..."
+
+- À la fin du cours m'envoyer un mail en répondant aux questions
+  principales pour votre site web :
+
+  - son titre
+  - son nom de domaine (s'il en avait un)
+  - quoi? (description)
+  - pourquoi? (motivation)
+  - comment? (début)
+
+- travail de groupe - deux groupes:
+  - l'un sur la partie "critiques"
+  - l'autre sur la page "recherche de films"
+
+- chaque groupe
+  - nomme un rapport
+
+questions à se poser:
+
+- statique dynamique
+- structure contenu
+- facile pas facile
+- système de recommandation
+- ouverture? droits d'auteur?
+
+notion de paramètres d'une requête web
+API (exemple IMDB)
+
+** Cours 5: Rédiger pour le web - Référencement et suivi (pas eu lieu)
+** Cours 6: Avancée sur le site perso et le site collectif
+
+- 1h30, suivi individualisé
+  
+  - Idée de site
+  - Début de cahier des charges
+  - Début de code HTML
+
+- 1h30, organisation: 30 minutes répartition des tâches 1h de travail
+
+  - Description claire et détaillée de l'idée
+  - Notes suite au cours n°5
+  - Répartition des tâches
+
+Fin du cours : envoyer questionnaire d'évaluation du cours.
+
 ** Cours 6: [[file:creation-de-sites-web-initiation-wordpress.org][Exploration d'un outil en particulier : Wordpress]]
 ** Cours 7: [[file:construire-le-cahier-des-charges-pour-un-site-web.org][Construction d'un cahier des charges de site Web]]
 ** Cours 8: [[file:conception-d-un-projet-de-site-web.org][Conception d'un projet de site Web]]
