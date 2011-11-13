@@ -10,49 +10,12 @@
 
 * Cours passés
 
-
 ** Cours 1: [[file:histoire-du-web-et-enjeux-sociaux.org][Présentation du cours, histoire du Web et enjeux sociaux]] ([[file:histoire-du-web-et-enjeux-sociaux.pdf][pdf]])
 ** Cours 2: [[file:initiation-ftp-html-wordpress.org][Initiation FTP, HTML et exploration Wordpress]] ([[file:initiation-ftp-html-wordpress.pdf][pdf]])
 ** Cours 3: [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org][Initiation FileZilla - Suite HTML - Kompozer et MediaWiki]] ([[file:initiation-ftp-filezilla-html-kompozer-mediawiki.pdf][pdf]])
 
 ** Cours 4: [[file:formats-web-cahier-des-charges-site-web.org][Formats web - Cahier des charges d'un site Web]]
-
-* Cours à venir (en cours de rédaction)
-
-** NEXT Cours 5: Outils pour le développeur web
-
-*** Interoperabilité et formats ouverts
-
-- HTML validator CSS validator
-- Format ouvert ?
-- Format libre ?
-- Format interopérable ?
-- Compatibilité ?
-- Exemple de fil XML Fil RSS
-
-*** Extensions firefox utiles
-
-- DOM Document model
-
-- Firebug
-- WebDeveloper
-- FireShot
-- HTML Validator
-- Total Validator
-- Greasemonkey
-- CSS viewer
-- YSlow (vitesse de la page web)
-- Fire FTP
-- ColorZila (pour la charte graphique)
-
-*** Outils pour le développeur
-
-- Org-mode pour la roadmap
-- http://yuml.me/diagram/scruffy/usecase/draw
-
-*** Ergonomie et rédaction pour le web
-
-- http://www.ergolab.net/
+** Cours 5: Outils pour le développeur web
 
 *** Cours réel
 
@@ -89,8 +52,46 @@ questions à se poser:
 notion de paramètres d'une requête web
 API (exemple IMDB)
 
-** Cours 5: Rédiger pour le web - Référencement et suivi (pas eu lieu)
-** Cours 6: Avancée sur le site perso et le site collectif
+
+*** Extensions firefox utiles
+
+- DOM Document model
+- Firebug
+- WebDeveloper
+- FireShot
+- HTML Validator
+- Total Validator
+- Greasemonkey
+- CSS viewer
+- YSlow (vitesse de la page web)
+- Fire FTP
+- ColorZila (pour la charte graphique)
+
+*** Interoperabilité et formats ouverts
+
+- HTML validator CSS validator
+- Qu'est-ce qu'un format ouvert ? libre ? interopérable ? "compatible" ?
+- Qu'est-ce qu'un fil RSS (notions de 
+
+#+index: CSS!Validation
+#+index: Format!Ouvert
+#+index: Format!Libre
+#+index: Format!Intéropérable
+#+index: RSS
+#+index: Atom
+#+index: XML
+
+*** Outils pour le développeur
+
+- http://yuml.me/diagram/scruffy/usecase/draw
+
+*** Ergonomie et rédaction pour le web
+
+- http://www.ergolab.net/
+
+
+
+** Cours 6: Suivi individualisé sur les sites perso
 
 - 1h30, suivi individualisé
   
@@ -105,6 +106,14 @@ API (exemple IMDB)
   - Répartition des tâches
 
 Fin du cours : envoyer questionnaire d'évaluation du cours.
+
+** Cours 7: Evaluation HTML/CSS et organisation du travail collectif
+
+
+* Cours à venir (en cours de rédaction)
+
+
+** Cours 8: Correction de l'évaluation et rédaction cahier des charges
 
 ** Cours 6: [[file:creation-de-sites-web-initiation-wordpress.org][Exploration d'un outil en particulier : Wordpress]]
 ** Cours 7: [[file:construire-le-cahier-des-charges-pour-un-site-web.org][Construction d'un cahier des charges de site Web]]

@@ -1,0 +1,232 @@
+#+TITLE: Cours n°4: Formats web - Cahier des charges d'un site Web
+#+AUTHOR: Bastien Guerry - Paris 7 -- 2011-2012
+#+DATE: 2011-2012
+#+LANGUAGE: fr
+#+OPTIONS:  skip:nil toc:t
+#+STARTUP:  even hidestars unfold
+#+LATEX_HEADER: \usepackage[french]{babel}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}
+
+* Objectif du cours
+
+L'objectif de ce cours est d'aborder des notions élémentaires sur les
+formats web et le fonctionnement d'un serveur web.  Le but est d'être
+capable de comprendre tous les aspects d'un cahier des charges complet.
+
+Les élèves prennent leurs notes de préférence sur le [[http://malibellulo.net][wiki du cours]] pour
+continuer à se familiariser avec la syntaxe Mediawiki et avec l'écriture
+collective. 
+
+* Rappels du cours n°3
+
+- Nouveaux élements de HTML
+- Compléments sur les feuilles de style
+- Initiation à Mediawiki
+
+* Outils à disposition sur le service d'hébergement
+
+Le site du cours http://malibellulo.net utilise le service d'hébergement
+Dreamhost.  Celui-ci permet d'installer facilement des services dont voici
+la liste:
+
+[[file:images/applications_web.jpg]]
+#+CAPTION: Applications Web disponibles (1)
+
+[[file:images/applications_web2.jpg]]
+#+CAPTION: Applications Web disponibles (2)
+
+* Présentations des différentes compétences "web"
+
+Un email a été envoyé à chacun où il lui a été demandé de réfléchir à la
+compétence qu'il aimerait renforcer -- une liste non-exhaustive de celles
+qui sont potentiellement à la disposition de l'élève :
+
+1. Structure d'une page en HTML
+2. Mise en forme avec CSS
+3. Design graphique
+4. Syntaxe Mediawiki
+5. Administration d'un blog
+6. Gestion des commentaires d'un blog
+7. Administration d'un wiki
+8. Gestion des catégories dans un wiki
+9. Organisation des fichiers sur le serveur FTP
+10. Installation de nouvelles applications (forum, etc)
+11. Aspects dynamiques (avec php, javascript ou autre)
+12. ...
+
+Pour le travail sur le site personnel, que chacun accentue l'aspect qui
+l'intéresse le plus.  Pour le travail sur le site collectif, il est
+important que chacun connaisse les compétences des uns et des autres pour
+que tous en tirent bénéfice.
+
+* Suite de l'initiation à Mediawiki
+
+Quelques autres élements de syntaxe Mediawiki :
+
+** Les catégories
+
+Pour insérer une catégorie dans le wiki du cours :
+
+: [[Category:Nom de la catégorie]]
+
+** Les liens internes
+
+: [[Une page]] 
+
+... crée un lien vers une (nouvelle) page portant ce nom.  
+L'URL de la page sera en fait: 
+
+: http://wiki.malibellulo.net/wiki/Une_page
+
+* Les formats des contenus web
+  
+** Formats de "pages web"
+
+Voici quelques formats parmi les plus courants:
+
+- .html
+- .php
+- .asp
+- ...
+
+#+index: PHP
+#+index: ASP
+#+index: HTML
+
+*** Comment sont interprétés les formats ?
+
+Lorsqu'on demande une page web à un serveur, l'extension de l'URL (ou le
+format de la page) aide le serveur à savoir ce qu'il doit faire avec la
+page.  
+
+Par exemple, si c'est =http://.../unepage.html=, il saura qu'il doit
+simplement renvoyer du =HTML=.  Si c'est =http://.../unepage.php=, le
+serveur saura que cette page contient du code =PHP= qu'il faudra exécuter
+(c'est-à-dire que la page contiendra des instructions qui devront être
+exécutée /sur le serveur/).
+
+** Formats de pages "ressources"
+
+#+index: Javascript
+#+index: RSS
+#+index: XML
+#+index: CSS
+
+- =.css= :: Un fichier =CSS= est une feuille de style.  Ce fichier sert à
+            mettre en forme les éléments de HTML d'une page.  Chaque page
+            web peut soit appeler un fichier =.css= extérieur (lié à une
+            URL sur le web), soit /contenir/ ces instructions.
+
+- =.rss= :: Un "fil" =RSS= est un fichier au format =XML= qui décrit les
+            dernières entrées d'un blog ou les éléments principaux d'un
+            site.  S'/inscrire/ à un fil RSS signifie qu'un logiciel sur
+            notre machine permet de consulter régulièrement ce fichier, et
+            d'afficher les dernières nouvelles du site.
+
+- =.js= :: Du code javascript.  Ce code est soit intégré dans une page HTML
+           via les balises =<script>...</script>= (et cette page se sert ou
+           non de ce code javascript), soit contenu dans un distinct de la
+           page web (et ce fichier, tant qu'il est disponible sur le web
+           via une =URL=, peut être appelé par n'importe quelle page web.)
+
+- images et vidéos... :: On peut évidemment intégrer des ressources
+     multimédia à un site web (images ou vidéos).
+
+- autres :: on peut aussi intégrer d'autres éléments : par exemple des
+            boutons "Partager" (facebook), "+1" (Google), des animations
+            flash, des lecteurs vidéo ou audio (nécessitant souvent que
+            l'internaute autorise l'exécution de javascript).
+
+** Qu'est-ce qu'une API?
+
+#+index: API
+
+Une =API= ([[http://fr.wikipedia.org/wiki/Interface_de_programmation][Application Programming Interface]]) ou est une façon, pour un
+serveur, d'exposer des données.  Ces données sont accessibles à tout
+logiciel ou site connecté connecté à ce serveur.
+
+Par exemple, si le serveur de =allocine.fr= expose les horaires des dix
+prochaines séances de cinéma (sous forme de fichier =XML=, par exemple),
+alors un autre site pourra consulter ces données et les afficher de manière
+transparente (i.e. sans que l'internaute ait à aller sur allocine.fr)
+
+Les =API= permettent donc aux /machines/ de partager et de réutiliser des
+informations.
+
+Imaginons par exemple que vous vouliez avoir un petit programme dans votre
+barre des tâches qui vous indique quel est l'article de Wikipédia qui est
+le plus édité en ce moment : votre programme sera installé sur votre
+ordinateur, mais consultera régulièrement Wikipédia via [[http://www.mediawiki.org/wiki/API:Main_page][son API]] pour
+obtenir cette information.
+
+* Le référencement web
+
+** Fonctionnement général du référencement
+
+- par nom de domaine
+- par mots-clefs
+- par contenu
+- par "liens entrants"
+- par popularité
+- [[http://www.rankspirit.com/frobots.php][Le rôle du fichier robots.txt]]
+
+Attention : tous les moteurs de recherche utilisent des procédés
+différents pour trier les résultats...  et les recettes sont des 
+secrets bien gardés.
+
+** Outils d'analyse de la fréquentation d'un site web
+
+À tester pour comprendre les données que vous pouvez avoir sur vos
+visiteurs (et les informations que vous laissez aux webmasters des sites
+que vous fréquentez !)
+
+- [[http://fr.piwik.org/][Piwik]] (Clone libre de Google Analytics)
+- [[http://www.google.com/analytics/][Google Analytics]]
+
+* Cahier des charges d'un site web
+
+** Notions générales
+
+"Cahier des charges" ou "cahier des charges fonctionnel" :
+
+http://fr.wikipedia.org/wiki/Cahier_des_charges
+http://fr.wikipedia.org/wiki/Cahier_des_charges_fonctionnel
+
+
+** Détail
+
+-  Budget
+-  Délais
+-  Livrables
+-  Droits d'auteur
+-  Objectif du site
+-  Contenus
+-  Arborescence (?)
+-  Charte graphique
+-  Charte éditoriale
+-  Gestion du contenu
+-  Nom de domaine
+-  Langages utilisés
+- Hébergement (infrastructure)
+
+* Webographie / Bibliographie
+** [[file:formats-web-cahier-des-charges-site-web.org][Bien rédiger pour le web]] (Isabelle Canivet)
+** [[http://www.commentcamarche.net/faq/9660-le-cahier-des-charges-d-un-site-web#le-contenu-du-cahier-des-charges][Contenu d'un cahier des charges]] (CCM)
+
+* Vocabulaire
+
+- [Formats]
+- API
+- ...
+
+* Droits d'auteur
+
+#+begin_html
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.0/fr/88x31.png" class="logo"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Cours de création de sites web - 2011-2012</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://lumiere.ens.fr/~guerry/cours-creation-site-web/" property="cc:attributionName" rel="cc:attributionURL">Bastien Guerry</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/">Creative Commons Attribution-ShareAlike 2.0 France License</a>.
+#+end_html
+
+* Commentaires
+

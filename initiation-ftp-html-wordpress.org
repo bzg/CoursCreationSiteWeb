@@ -13,7 +13,7 @@
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
 * COMMENT TODO Ajouter captures d'écran
-* Résumé
+* Résumé du cours
 
 Les élèves se sont connectés sur un serveur FTP mis à leur disposition.
 Comme le client FTP FileZilla n'était pas installé, nous avons utilisé
