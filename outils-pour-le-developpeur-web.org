@@ -1,0 +1,141 @@
+#+TITLE: Cours n°5: Des outils pour le développeur web
+#+AUTHOR: Bastien Guerry - Paris 7 -- 2011-2012
+#+DATE: 2011-2012
+#+LANGUAGE: fr
+#+OPTIONS:  skip:nil toc:t
+#+STARTUP:  even hidestars unfold
+#+LATEX_HEADER: \usepackage[french]{babel}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}
+
+* Objectif du cours
+
+L'objectif de ce cours est de découvrir des outils qui peuvent aider les
+élèves dans la conception d'un site web, et de commencer à en utiliser
+quelques uns au sein de deux groupes : l'un qui s'occupe d'une première
+moitié du site collectif (la partie « critiques de cinéma »), l'autre qui
+s'en s'occupe de l'autre moitié (la partie « horaires de séances dans le
+quartier »).
+
+À la fin du cours, les élèves devront envoyer un mail dans lequel ils
+décriront sommairement leur projet de site personnel et répondront à ces
+questions :
+
+- Quel est son titre ?
+- Quel est son nom de domaine ?
+- Qu'est ce site [quoi] ?
+- Quelle est son utilité, sa motivation [pourquoi] ?
+- Comment allez-vous le faire [comment] ?
+
+* Rappels et notes sur le cours n°4
+
+** Intéroperabilité et formats ouverts
+
+- [[http://validator.w3.org/][HTML validator]] 
+- [[http://jigsaw.w3.org/css-validator/][CSS validator]]
+- Qu'est-ce qu'un format ouvert ? 
+- Qu'est-ce qu'un format libre ? 
+- Qu'est-ce qu'un format interopérable ? "compatible" ?
+- Qu'est-ce qu'un fil RSS (rappels) ?
+
+#+index: CSS!Validation
+#+index: Format!Ouvert
+#+index: Format!Libre
+#+index: Format!Intéropérable
+#+index: RSS
+#+index: Atom
+#+index: XML
+
+** Notions de /paramètres/ d'une requête web 
+
+Quelques exemples de paramètres et de leur usage.  S'entraîner sur une
+requête Google simple.
+
+** Explications sur les API 
+
+#+index: API
+
+Exemple d'[[http://www.imdb.com/][IMDB]] -- nous trouvons et testons plusieurs API pour IMDB.
+
+* Présentation de quelques outils
+
+** Extensions firefox utiles
+
+- DOM Document model
+- Firebug
+- WebDeveloper
+- FireShot
+- HTML Validator
+- Total Validator
+- Greasemonkey
+- CSS viewer
+- YSlow (vitesse de la page web)
+- Fire FTP
+- ColorZila (pour la charte graphique)
+
+** Travailler sur l'ergonomie 
+
+#+index: Ergonomie
+
+*** Outils pour les "mockups" (esquisses)
+
+- [[http://www.gimp.org/][Gimp]] ou [[http://www.adobe.com/fr/products/photoshop.html][Photoshop]]
+
+#+index: Gimp
+#+index: Photoshop
+#+index: Mockup
+
+*** Outil pour décrire l'interactivité :
+
+- Par exemple : http://yuml.me/diagram/scruffy/usecase/draw
+
+#+index: UML
+#+index: API
+
+=UML= est un ensemble de techniques pour décrire les fonctions d'un outil
+(pas seulement d'un outil de type "site web").  Sans vouloir explorer =UML=
+en entier (ni s'en servir pour n'importe quoi), on peut s'inspirer de
+représentations =ULM= pour décrire rapidement l'interactivité générale du
+site : quelles informations sont envoyées par l'internaute, traitées par le
+serveur, récupérée sur une autre machine via son API, etc.
+
+Une référence pour tout ce qui concerne l'ergonomie d'un site web :
+
+- http://www.ergolab.net/
+
+* Travail de(ux) groupe(s)
+
+On divise la classe en deux groupes : chaque groupe aura en charge le
+travail sur le cahier des charges d'une partie du site web collectif.
+
+Chaque groupe nomme un /rapporteur/ qui essaie de noter (ces notes sont
+prises sur des etherpad.)
+
+Quelques directions sur les grandes questions à garder en tête en parlant
+du site :
+
+- est-ce qu'on parle d'un élément /statique/ ou /dynamique/ ?
+- parle-t-on de la /structure/ ou du /contenu/ ?
+- un système de recommandation... oui mais /lequel/ ? et /pourquoi/ ?
+- quels sont les /droits d'auteur/ associés à chaque contenu ?
+
+* COMMENT Webographie / Bibliographie
+* Vocabulaire
+
+- Mockup
+- Ergonomie
+
+* Droits d'auteur
+
+#+begin_html
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.0/fr/88x31.png" class="logo"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Cours de création de sites web - 2011-2012</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://lumiere.ens.fr/~guerry/cours-creation-site-web/" property="cc:attributionName" rel="cc:attributionURL">Bastien Guerry</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/">Creative Commons Attribution-ShareAlike 2.0 France License</a>.
+#+end_html
+
+* Commentaires
+
+
+
+
+
