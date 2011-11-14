@@ -31,7 +31,7 @@
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-7][Adresse IP]]
    - [[file:initiation-ftp-html-outils.org::#sec-1][Apache]]
    - [[file:navigateur-serveur-lamp-formats-web.org::#sec-2][Apache]]
-   - [[file:outils-pour-le-developpeur-web.org::#sec-3-2-2][API]]
+   - [[file:outils-pour-le-developpeur-web.org::#sec-3-2-3][API]]
    - [[file:outils-pour-le-developpeur-web.org::#sec-2-3][API]]
    - [[file:formats-web-cahier-des-charges-site-web.org::#sec-6-3][API]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-3][Architecture (site web)]]
@@ -98,7 +98,7 @@
      - [[file:initiation-ftp-html-wordpress.org::#sec-2][Port]]
      - [[file:initiation-ftp-html-wordpress.org::#sec-2][Serveur]]
 ** G
-   - [[file:outils-pour-le-developpeur-web.org::#sec-3-2-1][Gimp]]
+   - [[file:outils-pour-le-developpeur-web.org::#sec-3-2-2][Gimp]]
    - [[file:initiation-ftp-html-outils.org::#sec-1][Google Chrome]]
    - [[file:navigateur-serveur-lamp-formats-web.org::#sec-2][Google Chrome]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-10-5][Google Trends]]
@@ -115,6 +115,8 @@
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-7][Internet (et Web)]]
    - [[file:initiation-ftp-html-outils.org::#sec-1][Internet Explorer]]
    - [[file:navigateur-serveur-lamp-formats-web.org::#sec-2][Internet Explorer]]
+   - IP
+     - [[file:realisation-site-web-I.org::#sec-3][Adresse]]
 ** J
    - [[file:initiation-ftp-html-outils.org::#sec-1][Java]]
    - [[file:navigateur-serveur-lamp-formats-web.org::#sec-2][Java]]
@@ -129,6 +131,7 @@
 ** L
    - [[file:initiation-ftp-html-outils.org::#sec-1][LAMP]]
    - [[file:navigateur-serveur-lamp-formats-web.org::#sec-2][LAMP]]
+   - [[file:realisation-site-web-I.org::#sec-3][LAMP]]
    - [[file:initiation-ftp-html-wordpress.org::#sec-3][Lien]]
    - Lien
      - [[file:initiation-ftp-html-wordpress.org::#sec-3][Ancre]]
@@ -139,6 +142,8 @@
    - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-1][Liste ordonnées]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-10-1][live.com]]
 ** M
+   - Mac
+     - [[file:realisation-site-web-I.org::#sec-3][Adresse]]
    - [[file:initiation-ftp-html-outils.org::#sec-3-2][Mediawiki]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-4][Mediawiki]]
    - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-7][Mediawiki]]
@@ -146,7 +151,7 @@
    - Mediawiki
      - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-7-3][Syntaxe]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-10-1][microsoft.com]]
-   - [[file:outils-pour-le-developpeur-web.org::#sec-3-2-1][Mockup]]
+   - [[file:outils-pour-le-developpeur-web.org::#sec-3-2-2][Mockup]]
    - [[file:initiation-ftp-filezilla-html-kompozer-mediawiki.org::#sec-1][Moteur de rendu]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-10-1][msn.com]]
    - [[file:initiation-ftp-html-outils.org::#sec-1][Mysql]]
@@ -162,7 +167,7 @@
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-10-2][orange.fr]]
 ** P
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-10-2][Pages jaunes]]
-   - [[file:outils-pour-le-developpeur-web.org::#sec-3-2-1][Photoshop]]
+   - [[file:outils-pour-le-developpeur-web.org::#sec-3-2-2][Photoshop]]
    - [[file:formats-web-cahier-des-charges-site-web.org::#sec-6-1][PHP]]
    - [[file:initiation-ftp-html-outils.org::#sec-1][Php]]
    - [[file:navigateur-serveur-lamp-formats-web.org::#sec-2][Php]]
@@ -186,9 +191,10 @@
 ** T
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-4][Traitement de texte]]
 ** U
-   - [[file:outils-pour-le-developpeur-web.org::#sec-3-2-2][UML]]
+   - [[file:outils-pour-le-developpeur-web.org::#sec-3-2-3][UML]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-7][URL]]
 ** W
+   - [[file:realisation-site-web-I.org::#sec-3][WAMP]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-7][Web (et Internet)]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-9][Web 1.0]]
    - [[file:histoire-du-web-et-enjeux-sociaux.org::#sec-9][Web 2.0]]

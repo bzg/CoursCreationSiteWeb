@@ -12,7 +12,6 @@
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
-
 * Retours sur l'évaluation
 
 Un point sur la /méthode/ et /l'attitude/ à adopter face à un problème.
@@ -48,8 +47,67 @@ partir d'ECM permet à tout le monde de se pencher sur le problème.
 
 * Travail sur le cahier des charges
 
+** Le point sur le cahier des charges
+
+Le cahier des charges [[http://wiki.malibellulo.net/wiki/Cahier_des_charges][sur le wiki]].
+
 Trois élèves font un point sur l'existant et présentent ce qu'il reste à
 faire pour que le cahier des charges soit complet.
+
+: Il manque des spécifications techniques du site :
+: 
+: - Architecture : quelles sont les pages 
+: - Arrangement des hyperliens dans le film
+:   - Ex: sur les pages du film : quels liens ?
+:     - vers les réalisateurs
+:     - vers du contenu ailleurs 
+: 
+: - Préciser les titres des pages (comment il change en fonction du contenu)
+: 
+: - Problème des URLs : est-ce qu'on met des URLs significatives (titre du
+:   film, titre de la critique)
+: 
+: - Au niveau du graphisme : ce serait important que le logo apparaisse dans
+:   le cahier des charges.
+: 
+: - On a fait la distinction entre contenu et fonctions parce que c'était
+:   tout mélangé.
+: 
+: - On a ajouté les problèmes qu'on allait rencontrer -- par exemple charte
+:   de modération.  Si on veut supprimer le site, alors on doit pouvoir
+:   prévenir les gens.
+: 
+: - Est-ce qu'on modère avant ou après ?
+
+** Travail collectif sur le cahier des charges
+
+- Création répertoire dédié http://malibellulo.net/cineparis13/
+- Création nom de domaine http://cineparis13.net
+- Création blog http://cineparis13.net/critiques/
+- Création adresses emails (=contact@= et =newsletter@=)
+
+** Présentation Powerpoint du futur site
+
+Lien vers la présentation sur [[https://docs.google.com/present/edit?id%3D0AUpobS7GsKqNZGNwYnM2endfNTBnMmR6Nnpkdw][Google Docs]].
+
+** Présentation orale 
+
+
+- Introduction générale (Clara)
+- Introduction du contenu (Ludivine)
+- ...
+
+* Vocabulaire
+
+#+index: WAMP
+#+index: LAMP
+#+index: IP!Adresse
+#+index: Mac!Adresse
+
+- WAMP
+- LAMP
+- Adresse IP
+- Adresse Mac
 
 * Droits d'auteur
 

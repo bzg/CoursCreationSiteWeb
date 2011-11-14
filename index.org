@@ -18,32 +18,53 @@
 ** Cours 5: [[file:outils-pour-le-developpeur-web.org][Des outils pour le développeur web]]
 ** Cours 6: Suivi individualisé sur les sites perso
 ** Cours 7: Evaluation HTML/CSS et cahier des charges site collectif
-** Cours 8: Correction de l'évaluation et rédaction cahier des charges
-
-** Cours 9: [[file:realisation-site-web-I.org][Réalisation site web I (cahier des charges) {Évaluation}]]
-
+** Cours 8: [[file:realisation-site-web-I.org][Réalisation site web I (cahier des charges) {Évaluation}]]
 
 
 * Cours à venir (en cours de rédaction)
-
 
 # ** Cours 6: [[file:creation-de-sites-web-initiation-wordpress.org][Exploration d'un outil en particulier : Wordpress]]
 # ** Cours 7: [[file:construire-le-cahier-des-charges-pour-un-site-web.org][Construction d'un cahier des charges de site Web]]
 # ** Cours 8: [[file:conception-d-un-projet-de-site-web.org][Conception d'un projet de site Web]]
 
-
-
-
-
-** Cours 10: [[file:realisation-site-web-II.org][Réalisation site web II (conception)]]
-** Cours 11: [[file:realisation-site-web-III.org][Réalisation site web III (code) {Évaluation}]]
-** Cours 12: [[file:travail-collectif-autour-projet-de-site-web.org][Travail collectif autour d'un projet de site Web {Évaluation}]]
+** Cours 9: [[file:realisation-site-web-II.org][Réalisation site web II (conception - code)]]
+** Cours 9: [[file:realisation-site-web-III.org][Réalisation site web III (conception - code)]]
+** Cours 10: [[file:realisation-site-web-IV.org][Réalisation site web IV (tests)]]
+** Cours 11: [[file:travail-collectif-autour-projet-de-site-web.org][Travail collectif autour d'un projet de site Web {Évaluation}]]
 
 * [[file:theindex.org][Index des notions]]
 * Droits d'auteur
 
 #+begin_html
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.0/fr/88x31.png" class="logo"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Cours de création de sites web - 2011-2012</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://lumiere.ens.fr/~guerry/cours-creation-site-web/" property="cc:attributionName" rel="cc:attributionURL">Bastien Guerry</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/">Creative Commons Attribution-ShareAlike 2.0 France License</a>.
+#+end_html
+
+* Partager
+
+#+begin_html
+<a href="https://twitter.com/share" class="twitter-share-button"
+data-count="none" data-via="bzg2" data-lang="fr">Tweeter</a><script
+type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+
+<!-- Placez cette balise dans la section <head> ou juste avant la balise de fermeture </body> -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'fr'}
+</script>
+
+<!-- Placez cette balise à l'endroit où vous souhaitez que le bouton +1 s'affiche -->
+<g:plusone count="false"></g:plusone>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="lumiere.ens.fr/~guerry/cours-creation-site-web/index.html"
+data-send="true" data-width="450" data-show-faces="true"></div>
 #+end_html
 
 * Commentaires
