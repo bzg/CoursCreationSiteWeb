@@ -12,6 +12,45 @@
 
 [[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
 
+
+* Retours sur l'évaluation
+
+Un point sur la /méthode/ et /l'attitude/ à adopter face à un problème.
+
+** Explicitation du problème et des solutions tentées
+
+1. Quel est le problème ?
+   1. Qu'est-ce que j'ai fait ?
+   2. Qu'est-ce que j'attendais ?
+   3. Quel est le bout de code pertinent ?
+2. Comment ai-je essayé de le résoudre ?
+   1. Qu'est-ce que j'ai fait ?
+   2. [Quel est le code que j'ai modifié ?]
+   3. Qu'est-ce que j'attendais ?
+3. Etc.
+
+L'intérêt est d'expliciter, pour soi et pour les autres, qui ne peuvent pas
+aider si on ne montre pas clairement ce qu'on a fait.
+
+** Chercher les erreurs bêtes avant les erreurs compliquées
+
+Quand on explicite pas bien le problème, on a tendance à vouloir résoudre
+des problèmes compliqués quand la probabilité d'une erreur /bête/ (une
+faute de frappe, etc.) est plus grande.  Toujours chercher les erreurs
+bêtes d'abord.
+
+** Tests et ECM (Exemples Complets et Minimaux)
+
+Pour le déboguage, il est utile d'avoir un endroit dans lequel faire des
+/tests/.  Cela permet de savoir quel bout de code on teste.  Cela incite
+aussi à proposer des ECM -- exemples complets et minimaux.  Raisonner à
+partir d'ECM permet à tout le monde de se pencher sur le problème.
+
+* Travail sur le cahier des charges
+
+Trois élèves font un point sur l'existant et présentent ce qu'il reste à
+faire pour que le cahier des charges soit complet.
+
 * Droits d'auteur
 
 #+begin_html

@@ -10,6 +10,8 @@
 #+LATEX_HEADER: \usepackage{geometry}
 #+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}
 
+[[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
+
 * Objectif du cours
 
 L'objectif de ce cours est de découvrir des outils qui peuvent aider les
@@ -63,7 +65,6 @@ Exemple d'[[http://www.imdb.com/][IMDB]] -- nous trouvons et testons plusieurs A
 
 ** Extensions firefox utiles
 
-- DOM Document model
 - Firebug
 - WebDeveloper
 - FireShot
@@ -74,6 +75,16 @@ Exemple d'[[http://www.imdb.com/][IMDB]] -- nous trouvons et testons plusieurs A
 - YSlow (vitesse de la page web)
 - Fire FTP
 - ColorZila (pour la charte graphique)
+- DOM Document model
+
+*** Parenthèse : qu'est-ce que le Document Object Model ?
+
+#+index: DOM
+
+[[file:images/htmldomtree.gif]]
+#+CAPTION: Document Object Model
+
+Voir http://fr.wikipedia.org/wiki/Document_Object_Model
 
 ** Travailler sur l'ergonomie 
 
