@@ -20,9 +20,6 @@
 ** Cours 7: Evaluation HTML/CSS et cahier des charges site collectif
 ** Cours 8: [[file:realisation-site-web-I.org][Réalisation site web I (cahier des charges) {Évaluation}]]
 
-
-* Cours à venir (en cours de rédaction)
-
 # ** Cours 6: [[file:creation-de-sites-web-initiation-wordpress.org][Exploration d'un outil en particulier : Wordpress]]
 # ** Cours 7: [[file:construire-le-cahier-des-charges-pour-un-site-web.org][Construction d'un cahier des charges de site Web]]
 # ** Cours 8: [[file:conception-d-un-projet-de-site-web.org][Conception d'un projet de site Web]]

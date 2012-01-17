@@ -1,0 +1,21 @@
+#+TITLE: Cours n°11: Travail de groupe autour d'un projet de site Web
+#+AUTHOR: Bastien Guerry
+#+DATE: 2011-2012
+#+LANGUAGE: fr
+#+OPTIONS:  skip:nil toc:t
+#+STARTUP:  even hidestars unfold
+#+LATEX_HEADER: \usepackage[french]{babel}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1.2in}
+
+[[file:index.org][Page principale]] -- [[file:theindex.org][Index des notions]]
+
+* Droits d'auteur
+
+#+begin_html
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.0/fr/88x31.png" class="logo"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Cours de création de sites web - 2011-2012</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://lumiere.ens.fr/~guerry/cours-creation-site-web/" property="cc:attributionName" rel="cc:attributionURL">Bastien Guerry</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/">Creative Commons Attribution-ShareAlike 2.0 France License</a>.
+#+end_html
+
+* Commentaires
