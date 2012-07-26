@@ -140,6 +140,7 @@ questions suivantes :
 - L'histoire du web n'est pas celle de l'Internet, plus ancienne
 - Différences Web 1.0, Web 2.0, Web 3.0
 - [[http://online.wsj.com/article/SB10000872396390444464304577539063008406518.html][Gordon Crovitz: Who Really Invented the Internet?]] (2012-07-25)
+- [[http://www.latimes.com/business/money/la-mo-who-invented-internet-20120723,0,5052169.story][So, who really did invent the Internet?]] (2012-07-26)
 
 * Pour aller plus loin
 
