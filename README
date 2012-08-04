@@ -1,0 +1,15 @@
+#+TITLE: README
+#+AUTHOR: Bastien Guerry
+
+* Testing org-ruby in github
+
+Especially source blocks:
+
+#+BEGIN_SRC emacs-lisp
+  (defun byeworld ()
+    (message "Bye World!"))
+#+END_SRC
+
+* Does it work correctly ?
+
+Mh.
