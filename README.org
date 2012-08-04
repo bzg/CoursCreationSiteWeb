@@ -1,0 +1,41 @@
+#+TITLE: README.org
+
+* Test highlight C code
+
+#+BEGIN_SRC C
+/* Return the mirrored character of C, if it has one.  If C has no
+   mirrored counterpart, return C.
+   Note: The conditions in UAX#9 clause L4 regarding the surrounding
+   context must be tested by the caller.  */
+int
+bidi_mirror_char (int c)
+{
+  Lisp_Object val;
+
+  if (c == BIDI_EOB)
+    return c;
+  if (c < 0 || c > MAX_CHAR)
+    abort ();
+
+  val = CHAR_TABLE_REF (bidi_mirror_table, c);
+  if (INTEGERP (val))
+    {
+      int v;
+
+      /* When debugging, check before assigning to V, so that the check
+	 isn't broken by undefined behavior due to int overflow.  */
+      eassert (CHAR_VALID_P (XINT (val)));
+
+      v = XINT (val);
+
+      /* Minimal test we must do in optimized builds, to prevent weird
+	 crashes further down the road.  */
+      if (v < 0 || v > MAX_CHAR)
+	abort ();
+
+      return v;
+    }
+
+  return c;
+}
+#+END_SRC
